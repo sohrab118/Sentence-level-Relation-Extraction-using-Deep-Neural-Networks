@@ -1,0 +1,211 @@
+[Epoch: 1,   800/ 8000 points] total loss, accuracy per batch: 2.604, 0.203
+[Epoch: 1,  1600/ 8000 points] total loss, accuracy per batch: 2.039, 0.385
+[Epoch: 1,  2400/ 8000 points] total loss, accuracy per batch: 1.498, 0.580
+[Epoch: 1,  3200/ 8000 points] total loss, accuracy per batch: 1.151, 0.660
+[Epoch: 1,  4000/ 8000 points] total loss, accuracy per batch: 0.954, 0.725
+[Epoch: 1,  4800/ 8000 points] total loss, accuracy per batch: 0.768, 0.791
+[Epoch: 1,  5600/ 8000 points] total loss, accuracy per batch: 0.802, 0.741
+[Epoch: 1,  6400/ 8000 points] total loss, accuracy per batch: 0.741, 0.771
+[Epoch: 1,  7200/ 8000 points] total loss, accuracy per batch: 0.686, 0.789
+[Epoch: 1,  8000/ 8000 points] total loss, accuracy per batch: 0.646, 0.795
+07/07/2023 07:34:09 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.49it/s]
+
+07/07/2023 07:34:15 AM [INFO]: ***** Eval results *****
+07/07/2023 07:34:15 AM [INFO]:   accuracy = 0.8130070993914806
+07/07/2023 07:34:15 AM [INFO]:   f1 = 0.7683168316831683
+07/07/2023 07:34:15 AM [INFO]:   precision = 0.776
+07/07/2023 07:34:15 AM [INFO]:   recall = 0.7607843137254902
+Epoch finished, took 59.84 seconds.
+Losses at Epoch 1: 1.1890458
+Train accuracy at Epoch 1: 0.6440000
+Test f1 at Epoch 1: 0.7683168
+[Epoch: 2,   800/ 8000 points] total loss, accuracy per batch: 0.507, 0.848
+[Epoch: 2,  1600/ 8000 points] total loss, accuracy per batch: 0.509, 0.849
+[Epoch: 2,  2400/ 8000 points] total loss, accuracy per batch: 0.479, 0.856
+[Epoch: 2,  3200/ 8000 points] total loss, accuracy per batch: 0.416, 0.880
+[Epoch: 2,  4000/ 8000 points] total loss, accuracy per batch: 0.414, 0.866
+[Epoch: 2,  4800/ 8000 points] total loss, accuracy per batch: 0.465, 0.871
+[Epoch: 2,  5600/ 8000 points] total loss, accuracy per batch: 0.475, 0.841
+[Epoch: 2,  6400/ 8000 points] total loss, accuracy per batch: 0.444, 0.870
+[Epoch: 2,  7200/ 8000 points] total loss, accuracy per batch: 0.447, 0.868
+[Epoch: 2,  8000/ 8000 points] total loss, accuracy per batch: 0.467, 0.855
+07/07/2023 07:35:12 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.27it/s]
+07/07/2023 07:35:19 AM [INFO]: ***** Eval results *****
+07/07/2023 07:35:19 AM [INFO]:   accuracy = 0.8178625760649086
+07/07/2023 07:35:19 AM [INFO]:   f1 = 0.7518561938257132
+07/07/2023 07:35:19 AM [INFO]:   precision = 0.7326732673267327
+07/07/2023 07:35:19 AM [INFO]:   recall = 0.7720706260032103
+Epoch finished, took 60.48 seconds.
+Losses at Epoch 2: 0.4622547
+Train accuracy at Epoch 2: 0.8603750
+Test f1 at Epoch 2: 0.7518562
+[Epoch: 3,   800/ 8000 points] total loss, accuracy per batch: 0.219, 0.948
+[Epoch: 3,  1600/ 8000 points] total loss, accuracy per batch: 0.210, 0.946
+[Epoch: 3,  2400/ 8000 points] total loss, accuracy per batch: 0.231, 0.935
+[Epoch: 3,  3200/ 8000 points] total loss, accuracy per batch: 0.252, 0.930
+[Epoch: 3,  4000/ 8000 points] total loss, accuracy per batch: 0.256, 0.926
+[Epoch: 3,  4800/ 8000 points] total loss, accuracy per batch: 0.253, 0.921
+[Epoch: 3,  5600/ 8000 points] total loss, accuracy per batch: 0.248, 0.931
+[Epoch: 3,  6400/ 8000 points] total loss, accuracy per batch: 0.257, 0.926
+[Epoch: 3,  7200/ 8000 points] total loss, accuracy per batch: 0.251, 0.930
+[Epoch: 3,  8000/ 8000 points] total loss, accuracy per batch: 0.168, 0.946
+07/07/2023 07:36:18 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.80it/s]
+07/07/2023 07:36:25 AM [INFO]: ***** Eval results *****
+07/07/2023 07:36:25 AM [INFO]:   accuracy = 0.8343686612576066
+07/07/2023 07:36:25 AM [INFO]:   f1 = 0.7841409691629957
+07/07/2023 07:36:25 AM [INFO]:   precision = 0.7952883834281073
+07/07/2023 07:36:25 AM [INFO]:   recall = 0.7733017377567141
+Epoch finished, took 61.49 seconds.
+Losses at Epoch 3: 0.2344426
+Train accuracy at Epoch 3: 0.9340000
+Test f1 at Epoch 3: 0.7841410
+[Epoch: 4,   800/ 8000 points] total loss, accuracy per batch: 0.104, 0.966
+[Epoch: 4,  1600/ 8000 points] total loss, accuracy per batch: 0.095, 0.969
+[Epoch: 4,  2400/ 8000 points] total loss, accuracy per batch: 0.109, 0.978
+[Epoch: 4,  3200/ 8000 points] total loss, accuracy per batch: 0.116, 0.973
+[Epoch: 4,  4000/ 8000 points] total loss, accuracy per batch: 0.136, 0.960
+[Epoch: 4,  4800/ 8000 points] total loss, accuracy per batch: 0.092, 0.970
+[Epoch: 4,  5600/ 8000 points] total loss, accuracy per batch: 0.134, 0.955
+[Epoch: 4,  6400/ 8000 points] total loss, accuracy per batch: 0.184, 0.949
+[Epoch: 4,  7200/ 8000 points] total loss, accuracy per batch: 0.133, 0.964
+[Epoch: 4,  8000/ 8000 points] total loss, accuracy per batch: 0.153, 0.955
+07/07/2023 07:37:24 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.96it/s]
+07/07/2023 07:37:30 AM [INFO]: ***** Eval results *****
+07/07/2023 07:37:30 AM [INFO]:   accuracy = 0.8366506085192699
+07/07/2023 07:37:30 AM [INFO]:   f1 = 0.7949427103911497
+07/07/2023 07:37:30 AM [INFO]:   precision = 0.7933753943217665
+07/07/2023 07:37:30 AM [INFO]:   recall = 0.7965162311955661
+Epoch finished, took 61.54 seconds.
+Losses at Epoch 4: 0.1257253
+Train accuracy at Epoch 4: 0.9637500
+Test f1 at Epoch 4: 0.7949427
+[Epoch: 5,   800/ 8000 points] total loss, accuracy per batch: 0.047, 0.986
+[Epoch: 5,  1600/ 8000 points] total loss, accuracy per batch: 0.058, 0.981
+[Epoch: 5,  2400/ 8000 points] total loss, accuracy per batch: 0.050, 0.989
+[Epoch: 5,  3200/ 8000 points] total loss, accuracy per batch: 0.058, 0.988
+[Epoch: 5,  4000/ 8000 points] total loss, accuracy per batch: 0.064, 0.981
+[Epoch: 5,  4800/ 8000 points] total loss, accuracy per batch: 0.052, 0.986
+[Epoch: 5,  5600/ 8000 points] total loss, accuracy per batch: 0.044, 0.988
+[Epoch: 5,  6400/ 8000 points] total loss, accuracy per batch: 0.085, 0.975
+[Epoch: 5,  7200/ 8000 points] total loss, accuracy per batch: 0.049, 0.986
+[Epoch: 5,  8000/ 8000 points] total loss, accuracy per batch: 0.057, 0.988
+07/07/2023 07:38:30 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.36it/s]
+07/07/2023 07:38:36 AM [INFO]: ***** Eval results *****
+07/07/2023 07:38:36 AM [INFO]:   accuracy = 0.8332276876267748
+07/07/2023 07:38:36 AM [INFO]:   f1 = 0.7928626842513576
+07/07/2023 07:38:36 AM [INFO]:   precision = 0.7748294162244125
+07/07/2023 07:38:36 AM [INFO]:   recall = 0.8117553613979349
+Epoch finished, took 61.51 seconds.
+Losses at Epoch 5: 0.0562917
+Train accuracy at Epoch 5: 0.9847500
+Test f1 at Epoch 5: 0.7928627
+[Epoch: 6,   800/ 8000 points] total loss, accuracy per batch: 0.018, 0.994
+[Epoch: 6,  1600/ 8000 points] total loss, accuracy per batch: 0.051, 0.984
+[Epoch: 6,  2400/ 8000 points] total loss, accuracy per batch: 0.029, 0.993
+[Epoch: 6,  3200/ 8000 points] total loss, accuracy per batch: 0.017, 0.996
+[Epoch: 6,  4000/ 8000 points] total loss, accuracy per batch: 0.020, 0.994
+[Epoch: 6,  4800/ 8000 points] total loss, accuracy per batch: 0.058, 0.985
+[Epoch: 6,  5600/ 8000 points] total loss, accuracy per batch: 0.040, 0.990
+[Epoch: 6,  6400/ 8000 points] total loss, accuracy per batch: 0.022, 0.991
+[Epoch: 6,  7200/ 8000 points] total loss, accuracy per batch: 0.042, 0.989
+[Epoch: 6,  8000/ 8000 points] total loss, accuracy per batch: 0.021, 0.991
+07/07/2023 07:39:36 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.12it/s]
+07/07/2023 07:39:42 AM [INFO]: ***** Eval results *****
+07/07/2023 07:39:42 AM [INFO]:   accuracy = 0.8414680527383367
+07/07/2023 07:39:42 AM [INFO]:   f1 = 0.8015473887814313
+07/07/2023 07:39:42 AM [INFO]:   precision = 0.7938697318007663
+07/07/2023 07:39:42 AM [INFO]:   recall = 0.809375
+Epoch finished, took 61.53 seconds.
+Losses at Epoch 6: 0.0317180
+Train accuracy at Epoch 6: 0.9906250
+Test f1 at Epoch 6: 0.8015474
+[Epoch: 7,   800/ 8000 points] total loss, accuracy per batch: 0.012, 0.996
+[Epoch: 7,  1600/ 8000 points] total loss, accuracy per batch: 0.012, 0.998
+[Epoch: 7,  2400/ 8000 points] total loss, accuracy per batch: 0.023, 0.994
+[Epoch: 7,  3200/ 8000 points] total loss, accuracy per batch: 0.009, 0.999
+[Epoch: 7,  4000/ 8000 points] total loss, accuracy per batch: 0.015, 0.995
+[Epoch: 7,  4800/ 8000 points] total loss, accuracy per batch: 0.009, 0.998
+[Epoch: 7,  5600/ 8000 points] total loss, accuracy per batch: 0.009, 0.996
+[Epoch: 7,  6400/ 8000 points] total loss, accuracy per batch: 0.022, 0.996
+[Epoch: 7,  7200/ 8000 points] total loss, accuracy per batch: 0.025, 0.994
+[Epoch: 7,  8000/ 8000 points] total loss, accuracy per batch: 0.009, 0.999
+07/07/2023 07:40:41 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.11it/s]
+07/07/2023 07:40:48 AM [INFO]: ***** Eval results *****
+07/07/2023 07:40:48 AM [INFO]:   accuracy = 0.8414680527383367
+07/07/2023 07:40:48 AM [INFO]:   f1 = 0.7914230019493177
+07/07/2023 07:40:48 AM [INFO]:   precision = 0.7886557886557887
+07/07/2023 07:40:48 AM [INFO]:   recall = 0.7942097026604069
+Epoch finished, took 61.78 seconds.
+Losses at Epoch 7: 0.0144284
+Train accuracy at Epoch 7: 0.9963750
+Test f1 at Epoch 7: 0.7914230
+[Epoch: 8,   800/ 8000 points] total loss, accuracy per batch: 0.003, 1.000
+[Epoch: 8,  1600/ 8000 points] total loss, accuracy per batch: 0.014, 0.996
+[Epoch: 8,  2400/ 8000 points] total loss, accuracy per batch: 0.010, 0.998
+[Epoch: 8,  3200/ 8000 points] total loss, accuracy per batch: 0.003, 1.000
+[Epoch: 8,  4000/ 8000 points] total loss, accuracy per batch: 0.003, 1.000
+[Epoch: 8,  4800/ 8000 points] total loss, accuracy per batch: 0.002, 1.000
+[Epoch: 8,  5600/ 8000 points] total loss, accuracy per batch: 0.011, 0.996
+[Epoch: 8,  6400/ 8000 points] total loss, accuracy per batch: 0.012, 0.998
+[Epoch: 8,  7200/ 8000 points] total loss, accuracy per batch: 0.005, 0.999
+[Epoch: 8,  8000/ 8000 points] total loss, accuracy per batch: 0.005, 1.000
+07/07/2023 07:41:47 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.21it/s]
+07/07/2023 07:41:54 AM [INFO]: ***** Eval results *****
+07/07/2023 07:41:54 AM [INFO]:   accuracy = 0.84315415821501
+07/07/2023 07:41:54 AM [INFO]:   f1 = 0.7906423473433782
+07/07/2023 07:41:54 AM [INFO]:   precision = 0.7893903404592241
+07/07/2023 07:41:54 AM [INFO]:   recall = 0.7918983320095314
+Epoch finished, took 61.73 seconds.
+Losses at Epoch 8: 0.0068140
+Train accuracy at Epoch 8: 0.9986250
+Test f1 at Epoch 8: 0.7906423
+[Epoch: 9,   800/ 8000 points] total loss, accuracy per batch: 0.002, 1.000
+[Epoch: 9,  1600/ 8000 points] total loss, accuracy per batch: 0.003, 0.999
+[Epoch: 9,  2400/ 8000 points] total loss, accuracy per batch: 0.003, 0.999
+[Epoch: 9,  3200/ 8000 points] total loss, accuracy per batch: 0.008, 0.999
+[Epoch: 9,  4000/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 9,  4800/ 8000 points] total loss, accuracy per batch: 0.004, 0.999
+[Epoch: 9,  5600/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 9,  6400/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 9,  7200/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 9,  8000/ 8000 points] total loss, accuracy per batch: 0.006, 0.999
+07/07/2023 07:42:53 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.91it/s]
+07/07/2023 07:43:00 AM [INFO]: ***** Eval results *****
+07/07/2023 07:43:00 AM [INFO]:   accuracy = 0.8460953346855983
+07/07/2023 07:43:00 AM [INFO]:   f1 = 0.793538219070134
+07/07/2023 07:43:00 AM [INFO]:   precision = 0.7879499217527387
+07/07/2023 07:43:00 AM [INFO]:   recall = 0.7992063492063493
+Epoch finished, took 62.00 seconds.
+Losses at Epoch 9: 0.0030325
+Train accuracy at Epoch 9: 0.9993750
+Test f1 at Epoch 9: 0.7935382
+[Epoch: 10,   800/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  1600/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  2400/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  3200/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  4000/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  4800/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  5600/ 8000 points] total loss, accuracy per batch: 0.001, 1.000
+[Epoch: 10,  6400/ 8000 points] total loss, accuracy per batch: 0.002, 0.999
+[Epoch: 10,  7200/ 8000 points] total loss, accuracy per batch: 0.000, 1.000
+[Epoch: 10,  8000/ 8000 points] total loss, accuracy per batch: 0.010, 0.999
+07/07/2023 07:44:00 AM [INFO]: Evaluating test samples...
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.15it/s]
+07/07/2023 07:44:06 AM [INFO]: ***** Eval results *****
+07/07/2023 07:44:06 AM [INFO]:   accuracy = 0.8445867139959432
+07/07/2023 07:44:06 AM [INFO]:   f1 = 0.7981293842556508
+07/07/2023 07:44:06 AM [INFO]:   precision = 0.7895142636854279
+07/07/2023 07:44:06 AM [INFO]:   recall = 0.8069345941686368
+Epoch finished, took 62.12 seconds.
+Losses at Epoch 10: 0.0018230
+Train accuracy at Epoch 10: 0.9997500
+Test f1 at Epoch 10: 0.7981294

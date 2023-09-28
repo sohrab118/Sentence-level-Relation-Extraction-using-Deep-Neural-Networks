@@ -1,0 +1,621 @@
+06/16/2023 02:46:16 PM [INFO]: PyTorch version 1.12.1+cu102 available.
+06/16/2023 02:46:16 PM [INFO]: Loaded tokenizer from pre-trained blanks model
+06/16/2023 02:46:16 PM [INFO]: Reading training file ./data/SemEval2010_task8_all_data/SemEval2010_task8_training/TRAIN_FILE.TXT...
+06/16/2023 02:46:16 PM [INFO]: Reading test file ./data/SemEval2010_task8_all_data/SemEval2010_task8_testing_keys/TEST_FILE_FULL.TXT...
+06/16/2023 02:46:16 PM [INFO]: Mapping relations to IDs...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8000/8000 [00:00<00:00, 2939503.46it/s]
+prog-bar: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2717/2717 [00:00<00:00, 163548.90it/s]
+prog-bar: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8000/8000 [00:00<00:00, 194454.19it/s]
+06/16/2023 02:46:16 PM [INFO]: Finished and saved!
+06/16/2023 02:46:16 PM [INFO]: Tokenizing data...
+prog-bar: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8000/8000 [00:02<00:00, 2871.09it/s]
+prog-bar: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8000/8000 [00:00<00:00, 139899.90it/s]
+
+Invalid rows/total: 0/8000
+06/16/2023 02:46:19 PM [INFO]: Tokenizing data...
+prog-bar: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2717/2717 [00:00<00:00, 2911.96it/s]
+prog-bar: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2717/2717 [00:00<00:00, 135641.54it/s]
+
+Invalid rows/total: 0/2717
+06/16/2023 02:46:20 PM [INFO]: Loaded 8000 Training samples.
+06/16/2023 02:46:21 PM [INFO]: loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /home/sohrab/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+06/16/2023 02:46:21 PM [INFO]: Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/16/2023 02:46:23 PM [INFO]: loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /home/sohrab/.cache/torch/transformers/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+Model config:  {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/16/2023 02:46:24 PM [INFO]: Weights of BertModel not initialized from pretrained model: ['bert.classification_layer.weight', 'bert.classification_layer.bias']
+06/16/2023 02:46:27 PM [INFO]: FREEZING MOST HIDDEN LAYERS...
+[FREE]: embeddings.word_embeddings.weight
+[FREE]: embeddings.position_embeddings.weight
+[FREE]: embeddings.token_type_embeddings.weight
+[FREE]: embeddings.LayerNorm.weight
+[FREE]: embeddings.LayerNorm.bias
+[FREE]: encoder.layer.0.attention.self.query.weight
+[FREE]: encoder.layer.0.attention.self.query.bias
+[FREE]: encoder.layer.0.attention.self.key.weight
+[FREE]: encoder.layer.0.attention.self.key.bias
+[FREE]: encoder.layer.0.attention.self.value.weight
+[FREE]: encoder.layer.0.attention.self.value.bias
+[FREE]: encoder.layer.0.attention.output.dense.weight
+[FREE]: encoder.layer.0.attention.output.dense.bias
+[FREE]: encoder.layer.0.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.0.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.0.intermediate.dense.weight
+[FREE]: encoder.layer.0.intermediate.dense.bias
+[FREE]: encoder.layer.0.output.dense.weight
+[FREE]: encoder.layer.0.output.dense.bias
+[FREE]: encoder.layer.0.output.LayerNorm.weight
+[FREE]: encoder.layer.0.output.LayerNorm.bias
+[FREE]: encoder.layer.1.attention.self.query.weight
+[FREE]: encoder.layer.1.attention.self.query.bias
+[FREE]: encoder.layer.1.attention.self.key.weight
+[FREE]: encoder.layer.1.attention.self.key.bias
+[FREE]: encoder.layer.1.attention.self.value.weight
+[FREE]: encoder.layer.1.attention.self.value.bias
+[FREE]: encoder.layer.1.attention.output.dense.weight
+[FREE]: encoder.layer.1.attention.output.dense.bias
+[FREE]: encoder.layer.1.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.1.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.1.intermediate.dense.weight
+[FREE]: encoder.layer.1.intermediate.dense.bias
+[FREE]: encoder.layer.1.output.dense.weight
+[FREE]: encoder.layer.1.output.dense.bias
+[FREE]: encoder.layer.1.output.LayerNorm.weight
+[FREE]: encoder.layer.1.output.LayerNorm.bias
+[FREE]: encoder.layer.2.attention.self.query.weight
+[FREE]: encoder.layer.2.attention.self.query.bias
+[FREE]: encoder.layer.2.attention.self.key.weight
+[FREE]: encoder.layer.2.attention.self.key.bias
+[FREE]: encoder.layer.2.attention.self.value.weight
+[FREE]: encoder.layer.2.attention.self.value.bias
+[FREE]: encoder.layer.2.attention.output.dense.weight
+[FREE]: encoder.layer.2.attention.output.dense.bias
+[FREE]: encoder.layer.2.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.2.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.2.intermediate.dense.weight
+[FREE]: encoder.layer.2.intermediate.dense.bias
+[FREE]: encoder.layer.2.output.dense.weight
+[FREE]: encoder.layer.2.output.dense.bias
+[FREE]: encoder.layer.2.output.LayerNorm.weight
+[FREE]: encoder.layer.2.output.LayerNorm.bias
+[FREE]: encoder.layer.3.attention.self.query.weight
+[FREE]: encoder.layer.3.attention.self.query.bias
+[FREE]: encoder.layer.3.attention.self.key.weight
+[FREE]: encoder.layer.3.attention.self.key.bias
+[FREE]: encoder.layer.3.attention.self.value.weight
+[FREE]: encoder.layer.3.attention.self.value.bias
+[FREE]: encoder.layer.3.attention.output.dense.weight
+[FREE]: encoder.layer.3.attention.output.dense.bias
+[FREE]: encoder.layer.3.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.3.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.3.intermediate.dense.weight
+[FREE]: encoder.layer.3.intermediate.dense.bias
+[FREE]: encoder.layer.3.output.dense.weight
+[FREE]: encoder.layer.3.output.dense.bias
+[FREE]: encoder.layer.3.output.LayerNorm.weight
+[FREE]: encoder.layer.3.output.LayerNorm.bias
+[FREE]: encoder.layer.4.attention.self.query.weight
+[FREE]: encoder.layer.4.attention.self.query.bias
+[FREE]: encoder.layer.4.attention.self.key.weight
+[FREE]: encoder.layer.4.attention.self.key.bias
+[FREE]: encoder.layer.4.attention.self.value.weight
+[FREE]: encoder.layer.4.attention.self.value.bias
+[FREE]: encoder.layer.4.attention.output.dense.weight
+[FREE]: encoder.layer.4.attention.output.dense.bias
+[FREE]: encoder.layer.4.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.4.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.4.intermediate.dense.weight
+[FREE]: encoder.layer.4.intermediate.dense.bias
+[FREE]: encoder.layer.4.output.dense.weight
+[FREE]: encoder.layer.4.output.dense.bias
+[FREE]: encoder.layer.4.output.LayerNorm.weight
+[FREE]: encoder.layer.4.output.LayerNorm.bias
+[FREE]: encoder.layer.5.attention.self.query.weight
+[FREE]: encoder.layer.5.attention.self.query.bias
+[FREE]: encoder.layer.5.attention.self.key.weight
+[FREE]: encoder.layer.5.attention.self.key.bias
+[FREE]: encoder.layer.5.attention.self.value.weight
+[FREE]: encoder.layer.5.attention.self.value.bias
+[FREE]: encoder.layer.5.attention.output.dense.weight
+[FREE]: encoder.layer.5.attention.output.dense.bias
+[FREE]: encoder.layer.5.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.5.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.5.intermediate.dense.weight
+[FREE]: encoder.layer.5.intermediate.dense.bias
+[FREE]: encoder.layer.5.output.dense.weight
+[FREE]: encoder.layer.5.output.dense.bias
+[FREE]: encoder.layer.5.output.LayerNorm.weight
+[FREE]: encoder.layer.5.output.LayerNorm.bias
+[FREE]: encoder.layer.6.attention.self.query.weight
+[FREE]: encoder.layer.6.attention.self.query.bias
+[FREE]: encoder.layer.6.attention.self.key.weight
+[FREE]: encoder.layer.6.attention.self.key.bias
+[FREE]: encoder.layer.6.attention.self.value.weight
+[FREE]: encoder.layer.6.attention.self.value.bias
+[FREE]: encoder.layer.6.attention.output.dense.weight
+[FREE]: encoder.layer.6.attention.output.dense.bias
+[FREE]: encoder.layer.6.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.6.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.6.intermediate.dense.weight
+[FREE]: encoder.layer.6.intermediate.dense.bias
+[FREE]: encoder.layer.6.output.dense.weight
+[FREE]: encoder.layer.6.output.dense.bias
+[FREE]: encoder.layer.6.output.LayerNorm.weight
+[FREE]: encoder.layer.6.output.LayerNorm.bias
+[FREE]: encoder.layer.7.attention.self.query.weight
+[FREE]: encoder.layer.7.attention.self.query.bias
+[FREE]: encoder.layer.7.attention.self.key.weight
+[FREE]: encoder.layer.7.attention.self.key.bias
+[FREE]: encoder.layer.7.attention.self.value.weight
+[FREE]: encoder.layer.7.attention.self.value.bias
+[FREE]: encoder.layer.7.attention.output.dense.weight
+[FREE]: encoder.layer.7.attention.output.dense.bias
+[FREE]: encoder.layer.7.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.7.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.7.intermediate.dense.weight
+[FREE]: encoder.layer.7.intermediate.dense.bias
+[FREE]: encoder.layer.7.output.dense.weight
+[FREE]: encoder.layer.7.output.dense.bias
+[FREE]: encoder.layer.7.output.LayerNorm.weight
+[FREE]: encoder.layer.7.output.LayerNorm.bias
+[FREE]: encoder.layer.8.attention.self.query.weight
+[FREE]: encoder.layer.8.attention.self.query.bias
+[FREE]: encoder.layer.8.attention.self.key.weight
+[FREE]: encoder.layer.8.attention.self.key.bias
+[FREE]: encoder.layer.8.attention.self.value.weight
+[FREE]: encoder.layer.8.attention.self.value.bias
+[FREE]: encoder.layer.8.attention.output.dense.weight
+[FREE]: encoder.layer.8.attention.output.dense.bias
+[FREE]: encoder.layer.8.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.8.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.8.intermediate.dense.weight
+[FREE]: encoder.layer.8.intermediate.dense.bias
+[FREE]: encoder.layer.8.output.dense.weight
+[FREE]: encoder.layer.8.output.dense.bias
+[FREE]: encoder.layer.8.output.LayerNorm.weight
+[FREE]: encoder.layer.8.output.LayerNorm.bias
+[FREE]: encoder.layer.9.attention.self.query.weight
+[FREE]: encoder.layer.9.attention.self.query.bias
+[FREE]: encoder.layer.9.attention.self.key.weight
+[FREE]: encoder.layer.9.attention.self.key.bias
+[FREE]: encoder.layer.9.attention.self.value.weight
+[FREE]: encoder.layer.9.attention.self.value.bias
+[FREE]: encoder.layer.9.attention.output.dense.weight
+[FREE]: encoder.layer.9.attention.output.dense.bias
+[FREE]: encoder.layer.9.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.9.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.9.intermediate.dense.weight
+[FREE]: encoder.layer.9.intermediate.dense.bias
+[FREE]: encoder.layer.9.output.dense.weight
+[FREE]: encoder.layer.9.output.dense.bias
+[FREE]: encoder.layer.9.output.LayerNorm.weight
+[FREE]: encoder.layer.9.output.LayerNorm.bias
+[FREE]: encoder.layer.10.attention.self.query.weight
+[FREE]: encoder.layer.10.attention.self.query.bias
+[FREE]: encoder.layer.10.attention.self.key.weight
+[FREE]: encoder.layer.10.attention.self.key.bias
+[FREE]: encoder.layer.10.attention.self.value.weight
+[FREE]: encoder.layer.10.attention.self.value.bias
+[FREE]: encoder.layer.10.attention.output.dense.weight
+[FREE]: encoder.layer.10.attention.output.dense.bias
+[FREE]: encoder.layer.10.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.10.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.10.intermediate.dense.weight
+[FREE]: encoder.layer.10.intermediate.dense.bias
+[FREE]: encoder.layer.10.output.dense.weight
+[FREE]: encoder.layer.10.output.dense.bias
+[FREE]: encoder.layer.10.output.LayerNorm.weight
+[FREE]: encoder.layer.10.output.LayerNorm.bias
+[FREE]: encoder.layer.11.attention.self.query.weight
+[FREE]: encoder.layer.11.attention.self.query.bias
+[FREE]: encoder.layer.11.attention.self.key.weight
+[FREE]: encoder.layer.11.attention.self.key.bias
+[FREE]: encoder.layer.11.attention.self.value.weight
+[FREE]: encoder.layer.11.attention.self.value.bias
+[FREE]: encoder.layer.11.attention.output.dense.weight
+[FREE]: encoder.layer.11.attention.output.dense.bias
+[FREE]: encoder.layer.11.attention.output.LayerNorm.weight
+[FREE]: encoder.layer.11.attention.output.LayerNorm.bias
+[FREE]: encoder.layer.11.intermediate.dense.weight
+[FREE]: encoder.layer.11.intermediate.dense.bias
+[FREE]: encoder.layer.11.output.dense.weight
+[FREE]: encoder.layer.11.output.dense.bias
+[FREE]: encoder.layer.11.output.LayerNorm.weight
+[FREE]: encoder.layer.11.output.LayerNorm.bias
+[FREE]: pooler.dense.weight
+[FREE]: pooler.dense.bias
+[FREE]: classification_layer.weight
+[FREE]: classification_layer.bias
+06/16/2023 02:46:27 PM [INFO]: Loading model pre-trained on blanks at ./data/test_checkpoint_0.pth.tar...
+06/16/2023 02:46:29 PM [INFO]: Starting training process...
+[Epoch: 1,   800/ 8000 points] total loss, accuracy per batch: 2.920, 0.133
+[Epoch: 1,  1600/ 8000 points] total loss, accuracy per batch: 2.726, 0.170
+[Epoch: 1,  2400/ 8000 points] total loss, accuracy per batch: 2.546, 0.206
+[Epoch: 1,  3200/ 8000 points] total loss, accuracy per batch: 2.437, 0.245
+[Epoch: 1,  4000/ 8000 points] total loss, accuracy per batch: 2.219, 0.307
+[Epoch: 1,  4800/ 8000 points] total loss, accuracy per batch: 1.987, 0.395
+[Epoch: 1,  5600/ 8000 points] total loss, accuracy per batch: 1.783, 0.454
+[Epoch: 1,  6400/ 8000 points] total loss, accuracy per batch: 1.608, 0.494
+[Epoch: 1,  7200/ 8000 points] total loss, accuracy per batch: 1.505, 0.527
+[Epoch: 1,  8000/ 8000 points] total loss, accuracy per batch: 1.388, 0.574
+06/16/2023 02:47:23 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.52it/s]
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 3 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 0 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 1 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 10 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 9 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 4 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 2 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 7 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 16 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 5 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 11 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 6 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 13 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 8 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 12 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 14 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 17 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 15 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+/home/sohrab/anaconda3/envs/semeval/lib/python3.10/site-packages/seqeval/metrics/sequence_labeling.py:171: UserWarning: 18 seems not to be NE tag.
+  warnings.warn('{} seems not to be NE tag.'.format(chunk))
+06/16/2023 02:47:29 PM [INFO]: ***** Eval results *****
+06/16/2023 02:47:29 PM [INFO]:   accuracy = 0.6463869168356998
+06/16/2023 02:47:29 PM [INFO]:   f1 = 0.5643682742128339
+06/16/2023 02:47:29 PM [INFO]:   precision = 0.5756097560975609
+06/16/2023 02:47:29 PM [INFO]:   recall = 0.5535574667709148
+Epoch finished, took 60.25 seconds.
+Losses at Epoch 1: 2.1119487
+Train accuracy at Epoch 1: 0.3505000
+Test f1 at Epoch 1: 0.5643683
+[Epoch: 2,   800/ 8000 points] total loss, accuracy per batch: 1.180, 0.669
+[Epoch: 2,  1600/ 8000 points] total loss, accuracy per batch: 1.094, 0.679
+[Epoch: 2,  2400/ 8000 points] total loss, accuracy per batch: 1.074, 0.694
+[Epoch: 2,  3200/ 8000 points] total loss, accuracy per batch: 1.002, 0.689
+[Epoch: 2,  4000/ 8000 points] total loss, accuracy per batch: 0.933, 0.715
+[Epoch: 2,  4800/ 8000 points] total loss, accuracy per batch: 0.975, 0.699
+[Epoch: 2,  5600/ 8000 points] total loss, accuracy per batch: 0.907, 0.723
+[Epoch: 2,  6400/ 8000 points] total loss, accuracy per batch: 0.894, 0.703
+[Epoch: 2,  7200/ 8000 points] total loss, accuracy per batch: 0.848, 0.709
+[Epoch: 2,  8000/ 8000 points] total loss, accuracy per batch: 0.852, 0.718
+06/16/2023 02:48:26 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.47it/s]
+06/16/2023 02:48:32 PM [INFO]: ***** Eval results *****
+06/16/2023 02:48:32 PM [INFO]:   accuracy = 0.7324923935091279
+06/16/2023 02:48:32 PM [INFO]:   f1 = 0.6534502478078537
+06/16/2023 02:48:32 PM [INFO]:   precision = 0.6348148148148148
+06/16/2023 02:48:32 PM [INFO]:   recall = 0.6732128829536528
+Epoch finished, took 60.52 seconds.
+Losses at Epoch 2: 0.9759253
+Train accuracy at Epoch 2: 0.6995000
+Test f1 at Epoch 2: 0.6534502
+[Epoch: 3,   800/ 8000 points] total loss, accuracy per batch: 0.678, 0.806
+[Epoch: 3,  1600/ 8000 points] total loss, accuracy per batch: 0.610, 0.810
+[Epoch: 3,  2400/ 8000 points] total loss, accuracy per batch: 0.564, 0.825
+[Epoch: 3,  3200/ 8000 points] total loss, accuracy per batch: 0.563, 0.818
+[Epoch: 3,  4000/ 8000 points] total loss, accuracy per batch: 0.532, 0.854
+[Epoch: 3,  4800/ 8000 points] total loss, accuracy per batch: 0.564, 0.829
+[Epoch: 3,  5600/ 8000 points] total loss, accuracy per batch: 0.597, 0.814
+[Epoch: 3,  6400/ 8000 points] total loss, accuracy per batch: 0.522, 0.840
+[Epoch: 3,  7200/ 8000 points] total loss, accuracy per batch: 0.516, 0.841
+[Epoch: 3,  8000/ 8000 points] total loss, accuracy per batch: 0.570, 0.834
+06/16/2023 02:49:32 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.95it/s]
+06/16/2023 02:49:38 PM [INFO]: ***** Eval results *****
+06/16/2023 02:49:38 PM [INFO]:   accuracy = 0.757606490872211
+06/16/2023 02:49:38 PM [INFO]:   f1 = 0.6847430190206394
+06/16/2023 02:49:38 PM [INFO]:   precision = 0.7009113504556752
+06/16/2023 02:49:38 PM [INFO]:   recall = 0.6693037974683544
+Epoch finished, took 61.68 seconds.
+Losses at Epoch 3: 0.5714771
+Train accuracy at Epoch 3: 0.8270000
+Test f1 at Epoch 3: 0.6847430
+[Epoch: 4,   800/ 8000 points] total loss, accuracy per batch: 0.369, 0.907
+[Epoch: 4,  1600/ 8000 points] total loss, accuracy per batch: 0.356, 0.904
+[Epoch: 4,  2400/ 8000 points] total loss, accuracy per batch: 0.390, 0.880
+[Epoch: 4,  3200/ 8000 points] total loss, accuracy per batch: 0.369, 0.882
+[Epoch: 4,  4000/ 8000 points] total loss, accuracy per batch: 0.303, 0.926
+[Epoch: 4,  4800/ 8000 points] total loss, accuracy per batch: 0.335, 0.894
+[Epoch: 4,  5600/ 8000 points] total loss, accuracy per batch: 0.393, 0.881
+[Epoch: 4,  6400/ 8000 points] total loss, accuracy per batch: 0.398, 0.875
+[Epoch: 4,  7200/ 8000 points] total loss, accuracy per batch: 0.308, 0.915
+[Epoch: 4,  8000/ 8000 points] total loss, accuracy per batch: 0.371, 0.897
+06/16/2023 02:50:38 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.97it/s]
+06/16/2023 02:50:44 PM [INFO]: ***** Eval results *****
+06/16/2023 02:50:44 PM [INFO]:   accuracy = 0.7622718052738336
+06/16/2023 02:50:44 PM [INFO]:   f1 = 0.7072784810126582
+06/16/2023 02:50:44 PM [INFO]:   precision = 0.7140575079872205
+06/16/2023 02:50:44 PM [INFO]:   recall = 0.700626959247649
+Epoch finished, took 61.78 seconds.
+Losses at Epoch 4: 0.3591577
+Train accuracy at Epoch 4: 0.8962500
+Test f1 at Epoch 4: 0.7072785
+[Epoch: 5,   800/ 8000 points] total loss, accuracy per batch: 0.237, 0.936
+[Epoch: 5,  1600/ 8000 points] total loss, accuracy per batch: 0.206, 0.945
+[Epoch: 5,  2400/ 8000 points] total loss, accuracy per batch: 0.234, 0.924
+[Epoch: 5,  3200/ 8000 points] total loss, accuracy per batch: 0.167, 0.958
+[Epoch: 5,  4000/ 8000 points] total loss, accuracy per batch: 0.266, 0.931
+[Epoch: 5,  4800/ 8000 points] total loss, accuracy per batch: 0.242, 0.931
+[Epoch: 5,  5600/ 8000 points] total loss, accuracy per batch: 0.230, 0.934
+[Epoch: 5,  6400/ 8000 points] total loss, accuracy per batch: 0.229, 0.936
+[Epoch: 5,  7200/ 8000 points] total loss, accuracy per batch: 0.177, 0.951
+[Epoch: 5,  8000/ 8000 points] total loss, accuracy per batch: 0.198, 0.936
+06/16/2023 02:51:44 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.24it/s]
+06/16/2023 02:51:50 PM [INFO]: ***** Eval results *****
+06/16/2023 02:51:50 PM [INFO]:   accuracy = 0.7612068965517241
+06/16/2023 02:51:50 PM [INFO]:   f1 = 0.6942752740560293
+06/16/2023 02:51:50 PM [INFO]:   precision = 0.7125
+06/16/2023 02:51:50 PM [INFO]:   recall = 0.6769596199524941
+Epoch finished, took 61.93 seconds.
+Losses at Epoch 5: 0.2185926
+Train accuracy at Epoch 5: 0.9382500
+Test f1 at Epoch 5: 0.6942753
+[Epoch: 6,   800/ 8000 points] total loss, accuracy per batch: 0.098, 0.978
+[Epoch: 6,  1600/ 8000 points] total loss, accuracy per batch: 0.141, 0.965
+[Epoch: 6,  2400/ 8000 points] total loss, accuracy per batch: 0.193, 0.946
+[Epoch: 6,  3200/ 8000 points] total loss, accuracy per batch: 0.125, 0.964
+[Epoch: 6,  4000/ 8000 points] total loss, accuracy per batch: 0.133, 0.968
+[Epoch: 6,  4800/ 8000 points] total loss, accuracy per batch: 0.152, 0.956
+[Epoch: 6,  5600/ 8000 points] total loss, accuracy per batch: 0.105, 0.974
+[Epoch: 6,  6400/ 8000 points] total loss, accuracy per batch: 0.154, 0.959
+[Epoch: 6,  7200/ 8000 points] total loss, accuracy per batch: 0.156, 0.951
+[Epoch: 6,  8000/ 8000 points] total loss, accuracy per batch: 0.148, 0.958
+06/16/2023 02:52:50 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.03it/s]
+06/16/2023 02:52:56 PM [INFO]: ***** Eval results *****
+06/16/2023 02:52:56 PM [INFO]:   accuracy = 0.7766100405679512
+06/16/2023 02:52:56 PM [INFO]:   f1 = 0.7220015885623511
+06/16/2023 02:52:56 PM [INFO]:   precision = 0.7248803827751196
+06/16/2023 02:52:56 PM [INFO]:   recall = 0.7191455696202531
+Epoch finished, took 62.15 seconds.
+Losses at Epoch 6: 0.1403918
+Train accuracy at Epoch 6: 0.9617500
+Test f1 at Epoch 6: 0.7220016
+[Epoch: 7,   800/ 8000 points] total loss, accuracy per batch: 0.092, 0.980
+[Epoch: 7,  1600/ 8000 points] total loss, accuracy per batch: 0.060, 0.980
+[Epoch: 7,  2400/ 8000 points] total loss, accuracy per batch: 0.059, 0.985
+[Epoch: 7,  3200/ 8000 points] total loss, accuracy per batch: 0.103, 0.974
+[Epoch: 7,  4000/ 8000 points] total loss, accuracy per batch: 0.110, 0.970
+[Epoch: 7,  4800/ 8000 points] total loss, accuracy per batch: 0.105, 0.974
+[Epoch: 7,  5600/ 8000 points] total loss, accuracy per batch: 0.068, 0.979
+[Epoch: 7,  6400/ 8000 points] total loss, accuracy per batch: 0.077, 0.980
+[Epoch: 7,  7200/ 8000 points] total loss, accuracy per batch: 0.068, 0.984
+[Epoch: 7,  8000/ 8000 points] total loss, accuracy per batch: 0.088, 0.974
+06/16/2023 02:53:56 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.96it/s]
+06/16/2023 02:54:02 PM [INFO]: ***** Eval results *****
+06/16/2023 02:54:02 PM [INFO]:   accuracy = 0.7737068965517242
+06/16/2023 02:54:02 PM [INFO]:   f1 = 0.6917724109701188
+06/16/2023 02:54:02 PM [INFO]:   precision = 0.6949013157894737
+06/16/2023 02:54:02 PM [INFO]:   recall = 0.6886715566422168
+Epoch finished, took 61.87 seconds.
+Losses at Epoch 7: 0.0830228
+Train accuracy at Epoch 7: 0.9778750
+Test f1 at Epoch 7: 0.6917724
+[Epoch: 8,   800/ 8000 points] total loss, accuracy per batch: 0.061, 0.985
+[Epoch: 8,  1600/ 8000 points] total loss, accuracy per batch: 0.067, 0.985
+[Epoch: 8,  2400/ 8000 points] total loss, accuracy per batch: 0.058, 0.990
+[Epoch: 8,  3200/ 8000 points] total loss, accuracy per batch: 0.054, 0.985
+[Epoch: 8,  4000/ 8000 points] total loss, accuracy per batch: 0.040, 0.989
+[Epoch: 8,  4800/ 8000 points] total loss, accuracy per batch: 0.052, 0.989
+[Epoch: 8,  5600/ 8000 points] total loss, accuracy per batch: 0.056, 0.985
+[Epoch: 8,  6400/ 8000 points] total loss, accuracy per batch: 0.053, 0.990
+[Epoch: 8,  7200/ 8000 points] total loss, accuracy per batch: 0.043, 0.988
+[Epoch: 8,  8000/ 8000 points] total loss, accuracy per batch: 0.091, 0.974
+06/16/2023 02:55:02 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.85it/s]
+06/16/2023 02:55:08 PM [INFO]: ***** Eval results *****
+06/16/2023 02:55:08 PM [INFO]:   accuracy = 0.772274340770791
+06/16/2023 02:55:08 PM [INFO]:   f1 = 0.7016552280985063
+06/16/2023 02:55:08 PM [INFO]:   precision = 0.7229617304492513
+06/16/2023 02:55:08 PM [INFO]:   recall = 0.6815686274509803
+Epoch finished, took 62.00 seconds.
+Losses at Epoch 8: 0.0575404
+Train accuracy at Epoch 8: 0.9858750
+Test f1 at Epoch 8: 0.7016552
+[Epoch: 9,   800/ 8000 points] total loss, accuracy per batch: 0.039, 0.985
+[Epoch: 9,  1600/ 8000 points] total loss, accuracy per batch: 0.030, 0.993
+[Epoch: 9,  2400/ 8000 points] total loss, accuracy per batch: 0.035, 0.991
+[Epoch: 9,  3200/ 8000 points] total loss, accuracy per batch: 0.038, 0.988
+[Epoch: 9,  4000/ 8000 points] total loss, accuracy per batch: 0.045, 0.989
+[Epoch: 9,  4800/ 8000 points] total loss, accuracy per batch: 0.029, 0.990
+[Epoch: 9,  5600/ 8000 points] total loss, accuracy per batch: 0.062, 0.989
+[Epoch: 9,  6400/ 8000 points] total loss, accuracy per batch: 0.050, 0.990
+[Epoch: 9,  7200/ 8000 points] total loss, accuracy per batch: 0.038, 0.989
+[Epoch: 9,  8000/ 8000 points] total loss, accuracy per batch: 0.018, 0.996
+06/16/2023 02:56:08 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 13.04it/s]
+06/16/2023 02:56:14 PM [INFO]: ***** Eval results *****
+06/16/2023 02:56:14 PM [INFO]:   accuracy = 0.7780425963488844
+06/16/2023 02:56:14 PM [INFO]:   f1 = 0.7018385291766587
+06/16/2023 02:56:14 PM [INFO]:   precision = 0.7057877813504824
+06/16/2023 02:56:14 PM [INFO]:   recall = 0.6979332273449921
+Epoch finished, took 61.84 seconds.
+Losses at Epoch 9: 0.0383387
+Train accuracy at Epoch 9: 0.9898750
+Test f1 at Epoch 9: 0.7018385
+[Epoch: 10,   800/ 8000 points] total loss, accuracy per batch: 0.018, 0.998
+[Epoch: 10,  1600/ 8000 points] total loss, accuracy per batch: 0.037, 0.991
+[Epoch: 10,  2400/ 8000 points] total loss, accuracy per batch: 0.014, 0.996
+[Epoch: 10,  3200/ 8000 points] total loss, accuracy per batch: 0.010, 0.998
+[Epoch: 10,  4000/ 8000 points] total loss, accuracy per batch: 0.028, 0.993
+[Epoch: 10,  4800/ 8000 points] total loss, accuracy per batch: 0.018, 0.996
+[Epoch: 10,  5600/ 8000 points] total loss, accuracy per batch: 0.039, 0.989
+[Epoch: 10,  6400/ 8000 points] total loss, accuracy per batch: 0.032, 0.991
+[Epoch: 10,  7200/ 8000 points] total loss, accuracy per batch: 0.008, 0.996
+[Epoch: 10,  8000/ 8000 points] total loss, accuracy per batch: 0.015, 0.995
+06/16/2023 02:57:14 PM [INFO]: Evaluating test samples...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 85/85 [00:06<00:00, 12.96it/s]
+06/16/2023 02:57:20 PM [INFO]: ***** Eval results *****
+06/16/2023 02:57:20 PM [INFO]:   accuracy = 0.7787398580121703
+06/16/2023 02:57:20 PM [INFO]:   f1 = 0.7008821170809943
+06/16/2023 02:57:20 PM [INFO]:   precision = 0.702572347266881
+06/16/2023 02:57:20 PM [INFO]:   recall = 0.6992
+Epoch finished, took 62.00 seconds.
+Losses at Epoch 10: 0.0220002
+Train accuracy at Epoch 10: 0.9942500
+Test f1 at Epoch 10: 0.7008821
+06/16/2023 02:57:24 PM [INFO]: Finished Training!
+06/16/2023 02:57:27 PM [INFO]: Loading tokenizer and model...
+06/16/2023 02:57:28 PM [INFO]: loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /home/sohrab/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+06/16/2023 02:57:28 PM [INFO]: Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/16/2023 02:57:29 PM [INFO]: loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /home/sohrab/.cache/torch/transformers/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+Model config:  {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/16/2023 02:57:30 PM [INFO]: Weights of BertModel not initialized from pretrained model: ['bert.classification_layer.weight', 'bert.classification_layer.bias']
+06/16/2023 02:57:31 PM [INFO]: Loaded checkpoint model.
+06/16/2023 02:57:31 PM [INFO]: Loaded model and optimizer.
+06/16/2023 02:57:31 PM [INFO]: Done!
+Sentence:  The surprise [E1]visit[/E1] caused a [E2]frenzy[/E2] on the already chaotic trading floor.
+Predicted:  Cause-Effect(e1,e2) 
+
+Sentence:  [E2]After eating the chicken[/E2] , [E1]he[/E1] developed a sore throat the next morning .
+Predicted:  Other 
+
+Sentence:  After eating the chicken , [E1]he[/E1] developed [E2]a sore throat[/E2] the next morning .
+Predicted:  Other 
+
+Sentence:  [E1]After eating the chicken[/E1] , [E2]he[/E2] developed a sore throat the next morning .
+Predicted:  Other 
+
+Sentence:  [E1]After eating the chicken[/E1] , he developed [E2]a sore throat[/E2] the next morning .
+Predicted:  Other 
+
+Sentence:  After eating the chicken , [E2]he[/E2] developed [E1]a sore throat[/E1] the next morning .
+Predicted:  Other 
+
+Sentence:  [E2]After eating the chicken[/E2] , he developed [E1]a sore throat[/E1] the next morning .
+Predicted:  Other 
+
+Type input sentence ('quit' or 'exit' to terminate):

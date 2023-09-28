@@ -1,0 +1,942 @@
+((['said', 'GOP', 'Sen.', 'Lisa', 'Murkowski', 'of', 'Alaska', 'one', 'of', 'the', '12', 'who', 'helped', 'defeat', 'the', 'filibuster', 'but', 'then', 'opposed', 'the', 'measure', 'on', 'the', 'final', 'vote', '.'], (3, 5), (6, 7)), 'Lisa Murkowski', 'Alaska') 
+
+((['said', 'Secretary', 'of', 'State', 'of', 'John', 'Kerry', 'who', 'talked', 'with', 'Netanyahu', 'by', 'phone', 'about', 'the', 'situation', '.'], (5, 7), (10, 11)), 'John Kerry', 'Netanyahu') 
+
+06/13/2023 03:04:36 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:00<00:00, 38418.11it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/451 [00:00<?, ?it/s]
+((['but', 'I', 'had', 'a', 'special', 'place', 'in', 'my', 'heart', 'for', 'young', 'children', '.'], (1, 2), (9, 12)), 'I', 'for young children') 
+
+((['It', "'s", 'felt', 'on', 'every', 'corner', 'in', 'every', 'store', 'in', 'every', 'church', '.'], (0, 1), (3, 6)), 'It', 'on every corner') 
+
+((['Then', 'on', 'Sunday', 'Federer', 'overtook', 'Sampras', "'", 'mark', 'with', '15', 'grand', 'slams', 'with', 'the', 'American', 'in', 'attendance', 'to', 'view', 'his', 'record', 'finally', 'go', '.'], (5, 8), (15, 17)), "Sampras ' mark", 'in attendance') 
+
+ 83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                       | 60/72 [01:24<00:16,  1.35s/it]06/13/2023 03:04:36 AM [INFO]: Processing sentences...
+06/13/2023 03:04:37 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 797/797 [00:00<00:00, 1728.38it/s]
+Processed dataset samples from named entity extraction:████████████████████████████████████████████                                         | 555/797 [00:00<00:00, 1458.39it/s]
+((['added', 'Vieira', 'when', 'asked', 'if', 'the', 'English', 'Premier', 'League', 'champions', 'were', 'no', 'longer', 'interested', 'in', 'signing', 'players', 'such', 'as', 'Atletico', 'Madrid', 'striker', 'Falcao', 'who', 'is', 'expected', 'to', 'leave', 'the', 'Spanish', 'club', 'next', 'summer', '.'], (1, 2), (19, 21)), 'Vieira', 'Atletico Madrid') 
+
+((['said', 'the', 'former', 'Arsenal', 'Inter', 'Milan', 'and', 'Manchester', 'City', 'midfielder', '.', 'The', 'heart', 'of', 'the', 'English', 'player', 'is', 'double', 'or', 'triple', 'that', 'of', 'the', 'Spanish', 'or', 'French', 'player', '.'], (7, 9), (26, 27)), 'Manchester City', 'French') 
+
+((['CNN', 'Back', 'in', 'his', 'native', 'South', 'Korea', 'the', 'Korean', 'Foreign', 'Ministry', 'nicknamed', 'him', 'Ban', 'chusa', 'meaning', 'the', 'Bureaucrat', 'or', 'the', 'administrative', 'clerk', '.', 'U.N.', 'Secretary', 'General', 'Ban', 'Ki', 'moon', 'has', 'focused', 'on', 'global', 'warming', 'policy', 'by', 'world', 'governments', '.'], (7, 11), (23, 24)), 'the Korean Foreign Ministry', 'U.N.') 
+
+06/13/2023 03:04:37 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 396/396 [00:00<00:00, 40710.42it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/396 [00:00<?, ?it/s]
+((['Once', 'he', 'had', 'done', 'this', 'he', 'would', 'take', 'half', 'the', 'food', 'off', 'his', 'plate', 'and', 'just', 'consume', 'that', 'portion', '.'], (5, 6), (8, 11)), 'he', 'half the food') 
+
+((['It', 'is', 'the', 'latest', 'state', 'to', 'prohibit', 'employers', 'from', 'requiring', 'job', 'applicants', 'to', 'signify', 'if', 'they', 'have', 'a', 'criminal', 'record', 'on', 'a', 'job', 'application', '.'], (0, 1), (2, 5)), 'It', 'the latest state') 
+
+((['According', 'to', 'Rosenberg', 'however', 'violence', 'at', 'Marikana', 'could', 'prove', 'to', 'be', 'detrimental', 'to', 'the', 'union', "'s", 'aggressive', 'recruitment', 'strategy', '.'], (0, 3), (4, 7)), 'According to Rosenberg', 'violence at Marikana') 
+
+ 85%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                     | 61/72 [01:25<00:14,  1.32s/it]06/13/2023 03:04:37 AM [INFO]: Processing sentences...
+06/13/2023 03:04:38 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 767/767 [00:00<00:00, 1474.07it/s]
+Processed dataset samples from named entity extraction:██████████████████████████████████████████████████████████████████████               | 682/767 [00:00<00:00, 1600.14it/s]
+((['This', 'has', 'prompted', 'Europe', 'and', 'other', 'Western', 'countries', 'to', 'step', 'up', 'maritime', 'patrols', '.', 'In', 'the', 'Gulf', 'of', 'Aden', ','], (6, 7), (15, 19)), 'Western', 'the Gulf of Aden') 
+
+((['Max', 'Page', 'Meet', 'the', 'face', 'behind', 'the', 'ForceMax', 'is', 'out', 'of', 'surgery', 'and', 'he', "'s", 'doing', 'well', ',', 'said', 'his', 'surgeon', 'Dr.', 'Vaughn', 'Starnes', 'at', 'Children', "'s", 'Hospital', 'in', 'Los', 'Angeles', '.'], (0, 3), (29, 31)), 'Max Page Meet', 'Los Angeles') 
+
+((['The', 'burning', 'to', 'death', 'by', 'ISIS', 'of', 'the', 'Jordanian', 'pilot', 'Muath', 'al', 'Kaseasbeh', 'galvanized', 'much', 'of', 'the', 'Arab', 'world', 'against', 'the', 'group', 'and', 'has', 'brought', 'Jordan', 'into', 'the', 'U.S.', 'led', 'campaign', 'against', 'ISIS', 'in', 'a', 'much', 'more', 'aggressive', 'manner', '.'], (17, 18), (28, 29)), 'Arab', 'U.S.') 
+
+06/13/2023 03:04:39 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 420/420 [00:00<00:00, 44263.72it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/420 [00:00<?, ?it/s]
+((['I', 'am', 'a', 'seeker', '.'], (0, 1), (2, 4)), 'I', 'a seeker') 
+
+((['It', 'has', 'no', 'cure', '.'], (0, 1), (2, 4)), 'It', 'no cure') 
+
+((['Out', 'of', 'those', 'attacks', 'Somali', 'pirates', 'successfully', 'hijacked', '32', 'vessels', 'and', 'took', '533', 'hostages', '.'], (4, 6), (8, 10)), 'Somali pirates', '32 vessels') 
+
+ 86%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                   | 62/72 [01:27<00:13,  1.34s/it]06/13/2023 03:04:39 AM [INFO]: Processing sentences...
+06/13/2023 03:04:39 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 696/696 [00:00<00:00, 1817.06it/s]
+Processed dataset samples from named entity extraction:███████████████████████████▍                                                         | 399/696 [00:00<00:00, 1394.76it/s]
+((['The', 'U.S.', 'military', 'bases', 'in', 'Okinawa', 'and', 'Japan', 'are', 'not', 'welcome', ','], (5, 6), (7, 8)), 'Okinawa', 'Japan') 
+
+((['West', 'Africa', 'has', 'a', 'history', 'of', 'political', 'strife', 'but', 'Senegal', 'has', 'largely', 'maintained', 'peace', 'and', 'has', 'never', 'experienced', 'a', 'military', 'coup', '.'], (0, 2), (9, 10)), 'West Africa', 'Senegal') 
+
+((['LOS', 'ANGELES', 'California', 'CNN', 'Michael', 'Jackson', "'s", 'family', 'and', 'about', '200', 'of', 'their', 'closest', 'friends', 'gathered', 'on', 'a', 'hill', 'Thursday', 'evening', 'for', 'their', 'final', 'farewell', 'to', 'the', 'pop', 'singer', 'who', 'died', '10', 'weeks', 'ago', '.'], (0, 2), (4, 7)), 'LOS ANGELES', "Michael Jackson's") 
+
+06/13/2023 03:04:40 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 405/405 [00:00<00:00, 43685.05it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/405 [00:00<?, ?it/s]
+((['The', 'episode', 'echoes', 'an', 'incident', 'more', 'than', 'a', 'decade', 'ago', 'that', 'strained', 'relations', 'between', 'the', 'United', 'States', 'and', 'Japan', ',', 'and', 'similar', 'cases', 'have', 'further', 'fueled', 'resentment', 'of', 'the', 'U.S.', 'military', 'presence', '.'], (0, 2), (3, 5)), 'The episode', 'an incident') 
+
+((['She', 'still', 'should', 'have', 'asked', 'him', 'for', 'money', 'goes', 'to', 'charity', '.'], (5, 6), (8, 11)), 'him', 'goes to charity') 
+
+((['CNN', 'Poll', 'Likability', 'helps', 'Obama', 'survive', 'brutal', 'weekSeparately', 'on', 'Monday', 'a', 'Northern', 'California', 'tea', 'party', 'group', 'filed', 'the', 'first', 'lawsuit', 'against', 'the', 'U.S.', 'government', 'stemming', 'from', 'the', 'IRS', 'targeting', '.'], (4, 7), (8, 10)), 'Obama survive brutal', 'on Monday') 
+
+ 88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                 | 63/72 [01:28<00:11,  1.30s/it]06/13/2023 03:04:40 AM [INFO]: Processing sentences...
+06/13/2023 03:04:41 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 736/736 [00:00<00:00, 1932.94it/s]
+Processed dataset samples from named entity extraction:█████████████████████████▉                                                           | 414/736 [00:00<00:00, 1454.47it/s]
+((['When', 'Alexander', 'diedArias', 'was', 'living', 'in', 'Yreka', 'California', 'when', 'she', 'met', 'Alexander', 'at', 'a', 'business', 'convention', 'in', 'Las', 'Vegas', 'in', 'September', '2006', '.'], (1, 3), (17, 19)), 'Alexander diedArias', 'Las Vegas') 
+
+((['In', 'Hong', 'Kong', 'there', "'s", 'only', 'one', 'Rugby', 'Sevens', 'Championship', '.'], (1, 3), (7, 10)), 'Hong Kong', 'Rugby Sevens Championship') 
+
+((['Morgan', 'declined', 'to', 'comment', 'on', 'how', 'much', 'HSBC', 'actually', 'invests', 'in', 'sponsoring', 'this', 'year', "'s", 'Hong', 'Kong', 'Sevens', 'but', 'he', 'says', 'the', 'bank', 'aims', 'for', 'a', 'three', 'to', 'one', 'return', 'on', 'sponsorship', 'investment', '.'], (0, 1), (15, 17)), 'Morgan', 'Hong Kong') 
+
+06/13/2023 03:04:41 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 475/475 [00:00<00:00, 44981.92it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/475 [00:00<?, ?it/s]
+((['I', 'told', 'him', 'I', 'did', "n't", 'believe', 'it', 'either', ',', 'said', 'Mercurio', '.'], (0, 1), (2, 3)), 'I', 'him') 
+
+((['But', 'in', 'this', 'case', ',', 'Hall', 'recounted', 'her', 'ordeal', 'last', 'week', 'in', 'an', 'interview', 'on', 'CNN', "'s", 'Larry', 'King', 'Live', 'saying', 'it', 'changed', 'her', 'life', 'forever', '.'], (1, 4), (7, 9)), 'in this case', 'her ordeal') 
+
+((['The', 'story', 'struck', 'me', 'because', 'it', 'weaves', 'together', 'some', 'important', 'trends', 'and', 'forces', 'in', 'India', 'as', 'the', 'nation', 'undertakes', 'the', 'biggest', 'elections', 'in', 'world', 'history', '.'], (0, 2), (3, 4)), 'The story', 'me') 
+
+ 89%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌               | 64/72 [01:29<00:10,  1.27s/it]06/13/2023 03:04:41 AM [INFO]: Processing sentences...
+06/13/2023 03:04:42 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 714/714 [00:00<00:00, 1682.14it/s]
+Processed dataset samples from named entity extraction:███████████████████████████████████████████████████▌                                 | 537/714 [00:00<00:00, 1510.89it/s]
+((['The', 'ICC', 'is', 'now', 'investigating', 'crimes', 'in', 'the', 'Central', 'African', 'Republic', 'Uganda', 'and', 'the', 'Democratic', 'Republic', 'of', 'the', 'Congo', 'and', 'in', 'March', 'the', 'court', 'indicted', 'President', 'Omar', 'al', 'Bashir', 'of', 'Sudan', 'on', 'charges', 'of', 'crimes', 'against', 'humanity', 'in', 'Darfur', '.'], (1, 2), (26, 29)), 'ICC', 'Omar al Bashir') 
+
+((["We're", 'left', 'with', 'the', 'memories', 'and', 'the', 'admiration', 'to', 'all', 'Colombians', 'and', 'also', 'Mexicans', 'because', 'I', 'think', 'Gabo', 'was', 'half', 'Mexican', 'and', 'half', 'Colombian', '.', 'He', "'s", 'just', 'as', 'admired', 'in', 'Mexico', 'as', 'he', 'is', 'in', 'his', 'native', 'Colombia', ','], (0, 1), (31, 32)), "We're", 'Mexico') 
+
+((['Chris', 'Turney', ',', 'an', 'Australian', 'professor', 'of', 'climate', 'change', 'at', 'the', 'University', 'of', 'New', 'South', 'Wales', ','], (0, 2), (4, 5)), 'Chris Turney', 'Australian') 
+
+06/13/2023 03:04:42 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 375/375 [00:00<00:00, 41861.55it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/375 [00:00<?, ?it/s]
+((['García', 'Márquez', 'spent', 'his', 'early', 'childhood', 'with', 'his', 'grandparents', 'while', 'his', 'parents', 'pursued', 'a', 'living', 'in', 'the', 'coastal', 'city', 'of', 'Barranquilla', '.'], (0, 2), (3, 6)), 'García Márquez', 'his early childhood') 
+
+((['In', 'the', 'mid', '1950s', 'García', 'Márquez', 'left', 'Colombia', 'for', 'Europe', 'a', 'move', 'partly', 'provoked', 'by', 'a', 'story', 'he', "'d", 'written', 'that', 'was', 'critical', 'of', 'the', 'government', '.'], (4, 6), (8, 10)), 'García Márquez', 'for Europe') 
+
+((['Dean', 'Eramo', 'has', 'truly', 'saved', 'my', 'life', '.'], (0, 2), (5, 7)), 'Dean Eramo', 'my life') 
+
+ 90%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍             | 65/72 [01:30<00:08,  1.25s/it]06/13/2023 03:04:42 AM [INFO]: Processing sentences...
+06/13/2023 03:04:43 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 951/951 [00:00<00:00, 1201.34it/s]
+Processed dataset samples from named entity extraction:██████████████████████████████████████▏                                              | 621/951 [00:00<00:00, 1052.10it/s]
+((['Between', 'July', '2008', 'and', 'this', 'month', 'U.S.', 'drones', 'have', 'killed', 'dozens', 'of', 'lower', 'ranking', 'militants', 'and', 'at', 'least', '10', 'mid', 'and', 'upper', 'level', 'leaders', 'within', 'al', 'Qaeda', 'or', 'the', 'Taliban', '.'], (6, 7), (25, 27)), 'U.S.', 'al Qaeda') 
+
+((['Look', 'at', 'images', 'of', 'European', 'nations', '»', 'Bulgaria', "'s", 'foreign', 'ministry', 'has', 'summoned', 'the', 'Czech', 'ambassador', 'in', 'Sofia', 'to', 'lodge', 'a', 'protest', 'about', 'the', 'piece', ','], (4, 5), (7, 8)), 'European', 'Bulgaria') 
+
+((['Shamila', 'Chaudhary', 'a', 'former', 'U.S.', 'National', 'Security', 'Council', 'director', 'for', 'Afghanistan', 'and', 'Pakistan', 'told', 'CNN', 'the', 'incident', 'reverberates', 'among', 'women', 'and', 'girls', 'and', 'even', 'conservative', 'Muslims', '.'], (4, 8), (25, 26)), 'U.S. National Security Council', 'Muslims') 
+
+06/13/2023 03:04:44 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 408/408 [00:00<00:00, 25627.88it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/408 [00:00<?, ?it/s]
+((['The', 'film', 'played', 'exceedingly', 'well', 'with', 'older', 'moviegoers', '59', 'percent', 'of', 'audience', 'members', 'were', 'above', 'the', 'age', 'of', '35', 'and', 'African', 'American', 'crowds', 'all', 'ten', 'of', '42′s', 'top', 'theaters', 'were', 'in', 'urban', 'markets', '.'], (0, 2), (5, 8)), 'The film', 'with older moviegoers') 
+
+((['The', 'spoof', 'sequel', 'nabbed', 'an', 'unremarkable', '$', '15.2', 'million', 'over', 'the', 'Friday', 'to', 'Sunday', 'period', 'from', '3402', 'theaters', 'a', 'low', 'point', 'for', 'the', '13', 'year', 'old', 'franchise', '.'], (0, 3), (12, 15)), 'The spoof sequel', 'to Sunday period') 
+
+((['In', 'this', 'situation', 'we', 'are', 'now', 'considering', 'further', 'steps', '.'], (3, 4), (7, 9)), 'we', 'further steps') 
+
+ 92%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍           | 66/72 [01:32<00:08,  1.36s/it]06/13/2023 03:04:44 AM [INFO]: Processing sentences...
+06/13/2023 03:04:45 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 795/795 [00:00<00:00, 1571.33it/s]
+Processed dataset samples from named entity extraction:████████████████████████████████████████████████████████████████████████████▌        | 745/795 [00:00<00:00, 1841.71it/s]
+((['Elsewhere', 'in', 'Spain', 'Valencia', 'were', 'held', 'to', 'a', '1', '1', 'draw', 'by', 'Osasuna', 'while', 'Mallorca', 'won', 'at', 'Rayo', 'Vallecano', '.'], (14, 15), (17, 19)), 'Mallorca', 'Rayo Vallecano') 
+
+((['More', 'from', 'Wallpaper', 'The', 'new', 'breed', 'of', 'designer', 'hostelsBut', 'this', 'year', "'s", 'best', 'business', 'hotel', 'is', 'the', 'Georges', 'a', 'tiny', 'boutique', 'establishment', 'in', 'Istanbul', "'s", 'Galata', 'district', 'which', 'offers', 'its', 'pampered', 'guests', 'a', 'private', 'butler', '.'], (17, 18), (23, 24)), 'Georges', 'Istanbul') 
+
+((['Andrew', 'Gardner', '.', 'The', 'Turkish', 'government', 'has', 'launched', 'an', 'investigation', 'into', 'the', 'possible', 'excess', 'use', 'of', 'force', '.'], (0, 2), (4, 5)), 'Andrew Gardner', 'Turkish') 
+
+06/13/2023 03:04:45 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 451/451 [00:00<00:00, 42271.09it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/451 [00:00<?, ?it/s]
+((['I', 'let', 'them', 'know'], (0, 1), (2, 4)), 'I', 'them know') 
+
+((['Not', 'all', 'veterans', 'have', 'mental', 'issues', '.'], (0, 3), (4, 6)), 'Not all veterans', 'mental issues') 
+
+((['It', 'follows', 'her', 'vote', 'against', 'a', '$', '120', 'billion', 'war', 'spending', 'bill', 'in', 'May', 'when', 'Congress', 'dropped', 'a', 'call', 'for', 'the', 'withdrawal', 'of', 'American', 'combat', 'troops', 'by', 'March', '2008', 'after', 'President', 'Bush', 'vetoed', 'a', 'bill', 'containing', 'that', 'provision', '.'], (0, 1), (12, 14)), 'It', 'in May') 
+
+ 93%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎         | 67/72 [01:33<00:06,  1.35s/it]06/13/2023 03:04:45 AM [INFO]: Processing sentences...
+06/13/2023 03:04:46 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 846/846 [00:00<00:00, 1423.06it/s]
+Processed dataset samples from named entity extraction:████████████████████████████████████▏                                                | 540/846 [00:00<00:00, 1147.45it/s]
+((['says', 'Tu', '.', 'The', 'worst', 'leader', 'of', 'Europe', 'in', 'recent', 'times', 'was', '2008', 'captain', 'Nick', 'Faldo', 'who', 'told', 'Lee', 'Westwood', 'in', 'the', 'middle', 'of', 'a', 'round', 'that', 'he', 'would', 'not', 'be', 'playing', 'the', 'next', 'day', '.'], (1, 2), (14, 16)), 'Tu', 'Nick Faldo') 
+
+((['CNN', "'s", 'Kyung', 'Lah', 'and', 'Linda', 'Hall', 'reported', 'from', 'San', 'Diego', 'CNN', "'s", 'Josh', 'Levs', 'reported', 'from', 'Atlanta', '.'], (5, 7), (11, 12)), 'Linda Hall', 'CNN') 
+
+((['Peggy', 'Shannon', '67', 'who', 'works', 'at', 'the', 'Senior', 'Citizens', 'Service', 'Desk', 'in', 'San', 'Diego', 'City', 'Hall', 'allegedly', 'faced', 'continuous', 'inappropriate', 'sexual', 'advances', 'by', 'the', 'mayor', 'while', 'trying', 'to', 'do', 'her', 'job', 'according', 'to', 'the', 'office', 'of', 'her', 'attorney', ','], (0, 2), (12, 16)), 'Peggy Shannon', 'San Diego City Hall') 
+
+06/13/2023 03:04:47 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 386/386 [00:00<00:00, 38211.03it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/386 [00:00<?, ?it/s]
+((['Chanting', 'and', 'waving', 'flags', 'the', 'protesters', 'ended', 'their', 'march', 'at', 'the', 'Chinese', 'consulate', 'where', 'they', 'sat', 'in', 'a', 'dense', 'group', 'holding', 'flags', 'and', 'banners', 'as', 'police', 'watched', 'from', 'nearby', '.'], (4, 6), (7, 9)), 'the protesters', 'their march') 
+
+((['The', 'climbers', 'also', 'were', 'charged', 'with', 'misdemeanor', 'trespassing', '.'], (0, 2), (5, 8)), 'The climbers', 'with misdemeanor trespassing') 
+
+((['It', 'characterizes', 'the', 'demonstrators', 'as', 'a', 'small', 'number', 'of', 'Tibetan', 'separatists', '.'], (0, 1), (2, 4)), 'It', 'the demonstrators') 
+
+ 94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎       | 68/72 [01:35<00:05,  1.36s/it]06/13/2023 03:04:47 AM [INFO]: Processing sentences...
+06/13/2023 03:04:47 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 882/882 [00:00<00:00, 1411.33it/s]
+Processed dataset samples from named entity extraction:████████████████████████████████████████████████████████████████▏                    | 746/882 [00:00<00:00, 1540.56it/s]
+((['He', 'beat', 'out', 'Jamaican', 'sprinter', 'Usain', 'Bolt', 'President', 'Obama', 'Apple', 'CEO', 'Steve', 'Jobs', 'and', 'House', 'Speaker', 'Nancy', 'Pelosi', 'among', 'other', 'finalists', '.'], (5, 7), (16, 18)), 'Usain Bolt', 'Nancy Pelosi') 
+
+((['CNN', 'A', 'shark', 'bit', 'a', '16', 'year', 'old', 'boy', 'across', 'both', 'legs', 'as', 'he', 'was', 'surfing', 'in', 'Hawaii', 'on', 'Sunday', 'CNN', 'affiliate', 'KHON', 'reported', '.'], (17, 18), (22, 23)), 'Hawaii', 'KHON') 
+
+((['Or', 'is', 'it', 'another', 'gesture', 'by', 'the', 'nominally', 'civilian', 'government', 'to', 'appease', 'critics?Kurt', 'Campbell', 'a', 'U.S.', 'assistant', 'secretary', 'of', 'state', 'called', 'it', 'a', 'dramatic', 'development', 'that', 'could', 'prompt', 'Washington', 'to', 'consider', 'improving', 'ties', '.'], (13, 14), (15, 16)), 'Campbell', 'U.S.') 
+
+06/13/2023 03:04:48 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 407/407 [00:00<00:00, 40604.20it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/407 [00:00<?, ?it/s]
+((['His', 'ex', 'wife', 'delivered', 'a', 'petition', 'to', 'a', 'doorman', 'at', 'Downing', 'Street', 'calling', 'on', 'Britain', 'to', 'use', 'its', 'influence', 'to', 'ensure', 'that', 'all', 'institutions', 'are', 'in', 'place', 'well', 'in', 'advance', 'of', 'Pakistani', 'elections', 'originally', 'scheduled', 'for', 'early', 'next', 'year', '.'], (0, 3), (4, 6)), 'His ex wife', 'a petition') 
+
+((['I', 'ca', "n't", 'change', 'Hong', 'Kong', ',', 'but', 'if', 'all', 'of', 'us', 'are', 'here', '.'], (0, 1), (4, 6)), 'I', 'Hong Kong') 
+
+((['He', 'has', 'been', 'incarcerated', 'since', 'April', '1', 'for', 'inadvertently', 'crossing', 'the', 'border', 'with', 'legally', 'purchased', 'firearms', '.'], (0, 1), (4, 7)), 'He', 'since April 1') 
+
+ 96%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏     | 69/72 [01:36<00:04,  1.38s/it]06/13/2023 03:04:48 AM [INFO]: Processing sentences...
+06/13/2023 03:04:49 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 777/777 [00:00<00:00, 1496.87it/s]
+Processed dataset samples from named entity extraction:██████████████████████████████████████████████████████████████▌                      | 648/777 [00:00<00:00, 1581.76it/s]
+((['The', 'NCAA', "'s", 'argument', 'in', 'both', 'the', 'ongoing', "O'Bannon", 'suit', 'and', 'another', 'one', 'filed', 'by', 'former', 'quarterback', 'Sam', 'Keller', 'also', 'in', 'federal', 'court', 'in', 'Oakland', 'is', 'that', 'it', 'is', 'trying', 'to', 'protect', 'the', 'amateur', 'model', 'of', 'college', 'sports', '.'], (1, 2), (17, 19)), 'NCAA', 'Sam Keller') 
+
+((['The', 'deaths', 'added', 'to', 'the', 'anger', 'already', 'felt', 'by', 'Pakistanis', 'over', 'the', 'U.S.', 'raid', 'that', 'killed', 'Osama', 'bin', 'Laden', 'at', 'a', 'compound', 'in', 'Pakistan', 'last', 'May', 'and', 'continued', 'American', 'drone', 'strikes', 'on', 'targets', 'in', 'the', 'nation', '.'], (9, 10), (23, 24)), 'Pakistanis', 'Pakistan') 
+
+((['FedEx', 'chose', 'to', 'endorse', 'that', 'brand', 'through', 'their', 'sponsorship', 'of', 'Mr.', 'Snyder', "'s", 'organization', '.'], (0, 1), (11, 12)), 'FedEx', 'Snyder') 
+
+06/13/2023 03:04:49 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 408/408 [00:00<00:00, 39472.16it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/408 [00:00<?, ?it/s]
+((['In', 'some', 'countries', ',', 'the', 'virus', 'has', 'spread', 'from', 'person', 'to', 'person', ',', 'but', 'only', 'in', 'close', 'contact', ',', 'such', 'as', 'a', 'person', 'who', 'was', 'caring', 'for', 'an', 'ill', 'person', '.'], (0, 3), (8, 10)), 'In some countries', 'from person') 
+
+((['We', 'do', "n't", 'eat', 'these', 'foods', 'other', 'times', 'of', 'the', 'year', 'because', 'we', "'ve", 'segmented', 'them', 'off', 'as', 'special', '.'], (0, 1), (4, 6)), 'We', 'these foods') 
+
+((['Through', 'it', 'all', 'the', 'commandos', 'walked', 'down', 'pitch', 'black', 'halls', 'trying', 'to', 'navigate', 'the', 'damaged', 'hotel', 'without', 'knowing', 'the', 'layout', '.'], (0, 2), (7, 10)), 'Through it', 'pitch black halls') 
+
+ 97%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏   | 70/72 [01:38<00:02,  1.36s/it]06/13/2023 03:04:49 AM [INFO]: Processing sentences...
+06/13/2023 03:04:50 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 836/836 [00:00<00:00, 1187.44it/s]
+Processed dataset samples from named entity extraction:███████████████████████████████████████████████████████████████████████████████████▋ | 828/836 [00:00<00:00, 1577.95it/s]
+((['1', 'of', 'FARC', 'is', 'dead', ',', 'Santos', 'said', '.'], (2, 3), (6, 7)), 'FARC', 'Santos') 
+
+((['HezbollahThe', 'Lebanese', 'militant', 'group', 'based', 'in', 'Lebanon', 'is', 'aligned', 'with', 'al', 'Assad', "'s", 'regime', 'in', 'Syria', '.', 'During', 'the', 'conflict', 'Hezbollah', 'reached', 'out', 'to', 'Hamas', 'praising', 'its', 'steadfastness', '.'], (0, 1), (24, 25)), 'HezbollahThe', 'Hamas') 
+
+((['I', 'see', 'faith', 'in', 'America', 'at', 'an', 'all', 'time', 'high', '.', 'King', 'The', 'Newsweek', 'article', 'quotes', 'our', 'Albert', 'Mohler', 'Jr.', 'And', 'he', "'s", 'president', 'of', 'the', 'Southern', 'Baptist', 'Theological', 'Seminary', '.'], (4, 5), (25, 29)), 'America', 'the Southern Baptist Theological') 
+
+06/13/2023 03:04:51 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 468/468 [00:00<00:00, 41415.61it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/468 [00:00<?, ?it/s]
+((['The', 'couple', 'co', 'owns', 'the', 'basketball', 'team', '.'], (0, 3), (4, 7)), 'The couple co', 'the basketball team') 
+
+((['Through', 'five', 'decades', 'some', 'of', 'the', 'most', 'famous', 'Iranian', 'plays', 'were', 'brought', 'to', 'life', 'by', 'Ostad', 'Mohammad', '.'], (0, 3), (12, 14)), 'Through five decades', 'to life') 
+
+((['Lohan', '51', 'was', 'arrested', 'in', 'Los', 'Angeles', 'in', 'March', 'in'], (4, 7), (9, 10)), 'in Los Angeles', 'in') 
+
+ 99%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████  | 71/72 [01:39<00:01,  1.40s/it]06/13/2023 03:04:51 AM [INFO]: Processing sentences...
+06/13/2023 03:04:51 AM [INFO]: Processing relation statements by entities...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 480/480 [00:00<00:00, 2002.79it/s]
+Processed dataset samples from named entity extraction:████████████████████████████▏                                                        | 278/480 [00:00<00:00, 1414.11it/s]
+((['Nowhere', 'is', 'this', 'more', 'true', 'than', 'in', 'his', 'outreach', 'efforts', 'with', 'Hispanics', '.', 'Romney', 'can', 'not', 'Hispander', 'blatant', 'pandering', 'to', 'Hispanics', 'usually', 'involving', 'mariachi', 'music', 'and', 'merciless', 'butchering', 'of', 'the', 'Spanish', 'language', '.'], (11, 12), (13, 14)), 'Hispanics', 'Romney') 
+
+((['The', 'footage', 'could', 'be', 'vital', 'in', 'the', 'administration', "'s", 'quest', 'to', 'convince', 'Congress', 'and', 'the', 'American', 'public', 'that', 'the', 'U.S.', 'must', 'launch', 'punitive', 'strikes', 'against', 'Syria', 'former', 'U.N.', 'Ambassador', 'Bill', 'Richardson', 'said', '.'], (12, 13), (25, 26)), 'Congress', 'Syria') 
+
+((['We', 'operate', 'a', 'sports', 'academy', 'in', 'Shanghai', 'that', 'teaches', 'fencing', 'squash', 'and', 'Thai', 'boxing', '.'], (6, 7), (12, 13)), 'Shanghai', 'Thai') 
+
+06/13/2023 03:04:52 AM [INFO]: Processing relation statements by dependency tree parsing...
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 263/263 [00:00<00:00, 39002.30it/s]
+Processed dataset samples from dependency tree parsing:                                                                                                 | 0/263 [00:00<?, ?it/s]
+((['If', 'Latinos', 'perceive', 'a', 'candidate', 'as', 'anti', 'immigrant', 'it', 'can', 'turn', 'them', 'off', 'period', '.'], (8, 9), (12, 14)), 'it', 'off period') 
+
+((['Edwards', 'served', 'several', 'terms', 'in', 'office', 'from', '1972', 'to', '1980', ',', '1984', 'to', '1988', 'and', '1992', 'to', '1996', '.'], (4, 6), (16, 18)), 'in office', 'to 1996') 
+
+((['Sexual', 'violence', 'will', 'never', 'be', 'tolerated', 'on', 'our', 'campus', '.'], (0, 2), (6, 9)), 'Sexual violence', 'on our campus') 
+
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 72/72 [01:40<00:00,  1.39s/it]
+06/13/2023 03:04:52 AM [INFO]: Total number of relation statements in pre-training corpus: 48487
+06/13/2023 03:04:52 AM [INFO]: Saved pre-training corpus to ./data/D.pkl
+06/13/2023 03:04:52 AM [INFO]: PyTorch version 1.12.1+cu102 available.
+06/13/2023 03:04:53 AM [INFO]: loading file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /home/sohrab/.cache/torch/transformers/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+06/13/2023 03:04:53 AM [INFO]: Adding [E1] to the vocabulary
+06/13/2023 03:04:53 AM [INFO]: Adding [/E1] to the vocabulary
+06/13/2023 03:04:53 AM [INFO]: Adding [E2] to the vocabulary
+06/13/2023 03:04:53 AM [INFO]: Adding [/E2] to the vocabulary
+06/13/2023 03:04:53 AM [INFO]: Adding [BLANK] to the vocabulary
+06/13/2023 03:04:53 AM [INFO]: Saved BERT tokenizer at ./data/BERT_tokenizer.pkl
+06/13/2023 03:04:53 AM [INFO]: Loaded 48487 pre-training samples.
+06/13/2023 03:04:54 AM [INFO]: loading configuration file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-config.json from cache at /home/sohrab/.cache/torch/transformers/4dad0251492946e18ac39290fcfe91b89d370fee250efe9521476438fe8ca185.7156163d5fdc189c3016baca0775ffce230789d7fa2a42ef516483e4ca884517
+06/13/2023 03:04:54 AM [INFO]: Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/13/2023 03:04:55 AM [INFO]: loading weights file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-pytorch_model.bin from cache at /home/sohrab/.cache/torch/transformers/aa1ef1aede4482d0dbcd4d52baad8ae300e60902e88fcb0bebdec09afd232066.36ca03ab34a1a5d5fa7bc3d03d55c4fa650fed07220e2eeebc06ce58d0e9a157
+Model config:  {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "finetuning_task": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "num_labels": 2,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "pruned_heads": {},
+  "torchscript": false,
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "vocab_size": 30522
+}
+
+06/13/2023 03:04:57 AM [INFO]: Weights of BertModel not initialized from pretrained model: ['bert.cls.predictions.bias', 'bert.cls.predictions.transform.dense.weight', 'bert.cls.predictions.transform.dense.bias', 'bert.cls.predictions.transform.LayerNorm.weight', 'bert.cls.predictions.transform.LayerNorm.bias', 'bert.cls.predictions.decoder.weight']
+06/13/2023 03:04:59 AM [INFO]: Starting training process...
+LM loss, blank_loss for last batch: 3.19013, 2.18022
+[Epoch: 1,  4848/ 48487 points] total loss, lm accuracy per batch: 6.814, 0.370
+06/13/2023 03:18:35 AM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 3.42793, 2.15510
+[Epoch: 1,  9696/ 48487 points] total loss, lm accuracy per batch: 5.075, 0.505
+06/13/2023 03:32:48 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.39269, 2.14945
+[Epoch: 1, 14544/ 48487 points] total loss, lm accuracy per batch: 4.591, 0.563
+06/13/2023 03:46:41 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.69643, 2.13213
+[Epoch: 1, 19392/ 48487 points] total loss, lm accuracy per batch: 4.327, 0.598
+06/13/2023 03:59:55 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.78972, 2.16691
+[Epoch: 1, 24240/ 48487 points] total loss, lm accuracy per batch: 4.101, 0.629
+06/13/2023 04:13:43 AM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 1.71449, 0.69344
+[Epoch: 1, 29088/ 48487 points] total loss, lm accuracy per batch: 3.174, 0.674
+06/13/2023 04:27:44 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 1.56400, 0.69778
+[Epoch: 1, 33936/ 48487 points] total loss, lm accuracy per batch: 2.295, 0.696
+06/13/2023 04:41:24 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.60045, 0.70177
+[Epoch: 1, 38784/ 48487 points] total loss, lm accuracy per batch: 2.152, 0.720
+06/13/2023 04:54:56 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 2.27511, 0.71161
+[Epoch: 1, 43632/ 48487 points] total loss, lm accuracy per batch: 2.089, 0.729
+06/13/2023 05:08:34 AM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 1.14618, 0.70798
+[Epoch: 1, 48480/ 48487 points] total loss, lm accuracy per batch: 1.916, 0.759
+06/13/2023 05:22:13 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8235.78 seconds.
+Losses at Epoch 1: 3.6532054
+Accuracy at Epoch 1: 0.6240835
+LM loss, blank_loss for last batch: 0.93467, 0.70486
+[Epoch: 2,  4848/ 48487 points] total loss, lm accuracy per batch: 1.853, 0.770
+06/13/2023 05:36:00 AM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 0.73671, 0.75025
+[Epoch: 2,  9696/ 48487 points] total loss, lm accuracy per batch: 1.757, 0.787
+06/13/2023 05:50:00 AM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.27810, 0.69856
+[Epoch: 2, 14544/ 48487 points] total loss, lm accuracy per batch: 1.747, 0.789
+06/13/2023 06:03:43 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.59507, 0.68554
+[Epoch: 2, 19392/ 48487 points] total loss, lm accuracy per batch: 1.764, 0.785
+06/13/2023 06:16:55 AM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.96934, 0.70333
+[Epoch: 2, 24240/ 48487 points] total loss, lm accuracy per batch: 1.744, 0.789
+06/13/2023 06:30:11 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.67205, 0.69946
+[Epoch: 2, 29088/ 48487 points] total loss, lm accuracy per batch: 1.656, 0.803
+06/13/2023 06:43:40 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.44860, 0.70139
+[Epoch: 2, 33936/ 48487 points] total loss, lm accuracy per batch: 1.664, 0.808
+06/13/2023 06:57:22 AM [INFO]: Last batch samples (pos, neg): 1, 9
+LM loss, blank_loss for last batch: 1.12457, 0.70391
+[Epoch: 2, 38784/ 48487 points] total loss, lm accuracy per batch: 1.599, 0.814
+06/13/2023 07:10:51 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.61328, 0.70501
+[Epoch: 2, 43632/ 48487 points] total loss, lm accuracy per batch: 1.616, 0.809
+06/13/2023 07:24:21 AM [INFO]: Last batch samples (pos, neg): 1, 2
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 1.53455, 0.69431
+[Epoch: 2, 48480/ 48487 points] total loss, lm accuracy per batch: 1.518, 0.828
+06/13/2023 07:37:59 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8142.53 seconds.
+Losses at Epoch 2: 1.6919837
+Accuracy at Epoch 2: 0.7983415
+LM loss, blank_loss for last batch: 0.63467, 0.69548
+[Epoch: 3,  4848/ 48487 points] total loss, lm accuracy per batch: 1.440, 0.844
+06/13/2023 07:51:50 AM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 1.38773, 0.69435
+[Epoch: 3,  9696/ 48487 points] total loss, lm accuracy per batch: 1.362, 0.861
+06/13/2023 08:05:46 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.37602, 0.69446
+[Epoch: 3, 14544/ 48487 points] total loss, lm accuracy per batch: 1.376, 0.858
+06/13/2023 08:19:32 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.95154, 0.69574
+[Epoch: 3, 19392/ 48487 points] total loss, lm accuracy per batch: 1.398, 0.854
+06/13/2023 08:32:42 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.06728, 0.69873
+[Epoch: 3, 24240/ 48487 points] total loss, lm accuracy per batch: 1.378, 0.858
+06/13/2023 08:45:54 AM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.35733, 0.69364
+[Epoch: 3, 29088/ 48487 points] total loss, lm accuracy per batch: 1.327, 0.867
+06/13/2023 08:59:24 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.56204, 0.69370
+[Epoch: 3, 33936/ 48487 points] total loss, lm accuracy per batch: 1.319, 0.869
+06/13/2023 09:13:07 AM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.32454, 0.69398
+[Epoch: 3, 38784/ 48487 points] total loss, lm accuracy per batch: 1.292, 0.874
+06/13/2023 09:26:38 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.92844, 0.69797
+[Epoch: 3, 43632/ 48487 points] total loss, lm accuracy per batch: 1.319, 0.869
+06/13/2023 09:40:13 AM [INFO]: Last batch samples (pos, neg): 1, 7
+LM loss, blank_loss for last batch: 0.40193, 0.69818
+[Epoch: 3, 48480/ 48487 points] total loss, lm accuracy per batch: 1.254, 0.881
+06/13/2023 09:53:52 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8148.11 seconds.
+Losses at Epoch 3: 1.3463277
+Accuracy at Epoch 3: 0.8634153
+LM loss, blank_loss for last batch: 0.36743, 0.69351
+[Epoch: 4,  4848/ 48487 points] total loss, lm accuracy per batch: 1.258, 0.880
+06/13/2023 10:07:40 AM [INFO]: Last batch samples (pos, neg): 1, 10
+LM loss, blank_loss for last batch: 0.38516, 0.69447
+[Epoch: 4,  9696/ 48487 points] total loss, lm accuracy per batch: 1.217, 0.888
+06/13/2023 10:21:36 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.48879, 0.69502
+[Epoch: 4, 14544/ 48487 points] total loss, lm accuracy per batch: 1.220, 0.887
+06/13/2023 10:35:16 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.00970, 0.70221
+[Epoch: 4, 19392/ 48487 points] total loss, lm accuracy per batch: 1.262, 0.878
+06/13/2023 10:48:28 AM [INFO]: Last batch samples (pos, neg): 1, 3
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 1.08285, 0.69704
+[Epoch: 4, 24240/ 48487 points] total loss, lm accuracy per batch: 1.250, 0.880
+06/13/2023 11:01:49 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.21950, 0.69099
+[Epoch: 4, 29088/ 48487 points] total loss, lm accuracy per batch: 1.227, 0.887
+06/13/2023 11:15:19 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.31874, 0.69544
+[Epoch: 4, 33936/ 48487 points] total loss, lm accuracy per batch: 1.221, 0.887
+06/13/2023 11:28:58 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 1.36407, 0.70102
+[Epoch: 4, 38784/ 48487 points] total loss, lm accuracy per batch: 1.201, 0.891
+06/13/2023 11:42:30 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.39875, 0.69438
+[Epoch: 4, 43632/ 48487 points] total loss, lm accuracy per batch: 1.213, 0.887
+06/13/2023 11:56:00 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.71095, 0.69525
+[Epoch: 4, 48480/ 48487 points] total loss, lm accuracy per batch: 1.162, 0.899
+06/13/2023 12:09:40 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8143.23 seconds.
+Losses at Epoch 4: 1.2230627
+Accuracy at Epoch 4: 0.8863461
+LM loss, blank_loss for last batch: 0.46653, 0.69333
+[Epoch: 5,  4848/ 48487 points] total loss, lm accuracy per batch: 1.139, 0.905
+06/13/2023 12:23:29 PM [INFO]: Last batch samples (pos, neg): 1, 10
+LM loss, blank_loss for last batch: 0.28141, 0.68968
+[Epoch: 5,  9696/ 48487 points] total loss, lm accuracy per batch: 1.093, 0.913
+06/13/2023 12:37:25 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.30575, 0.69695
+[Epoch: 5, 14544/ 48487 points] total loss, lm accuracy per batch: 1.103, 0.913
+06/13/2023 12:51:09 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.62880, 0.69572
+[Epoch: 5, 19392/ 48487 points] total loss, lm accuracy per batch: 1.104, 0.912
+06/13/2023 01:04:22 PM [INFO]: Last batch samples (pos, neg): 1, 5
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.00243, 0.69433
+[Epoch: 5, 24240/ 48487 points] total loss, lm accuracy per batch: 1.109, 0.910
+06/13/2023 01:17:38 PM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.51428, 0.69234
+[Epoch: 5, 29088/ 48487 points] total loss, lm accuracy per batch: 1.073, 0.918
+06/13/2023 01:31:06 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.60504, 0.69417
+[Epoch: 5, 33936/ 48487 points] total loss, lm accuracy per batch: 1.084, 0.916
+06/13/2023 01:44:47 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.18535, 0.69675
+[Epoch: 5, 38784/ 48487 points] total loss, lm accuracy per batch: 1.060, 0.921
+06/13/2023 01:58:17 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.38749, 0.69433
+[Epoch: 5, 43632/ 48487 points] total loss, lm accuracy per batch: 1.078, 0.917
+06/13/2023 02:11:50 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.26172, 0.69483
+[Epoch: 5, 48480/ 48487 points] total loss, lm accuracy per batch: 1.036, 0.925
+06/13/2023 02:25:27 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8141.67 seconds.
+Losses at Epoch 5: 1.0877281
+Accuracy at Epoch 5: 0.9147172
+LM loss, blank_loss for last batch: 0.23790, 0.69297
+[Epoch: 6,  4848/ 48487 points] total loss, lm accuracy per batch: 1.040, 0.924
+06/13/2023 02:39:17 PM [INFO]: Last batch samples (pos, neg): 1, 10
+LM loss, blank_loss for last batch: 0.68065, 0.69449
+[Epoch: 6,  9696/ 48487 points] total loss, lm accuracy per batch: 1.024, 0.928
+06/13/2023 02:53:14 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.23272, 0.69610
+[Epoch: 6, 14544/ 48487 points] total loss, lm accuracy per batch: 1.038, 0.925
+06/13/2023 03:06:53 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.31011, 0.69517
+[Epoch: 6, 19392/ 48487 points] total loss, lm accuracy per batch: 1.055, 0.921
+06/13/2023 03:20:03 PM [INFO]: Last batch samples (pos, neg): 1, 5
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.01382, 0.69666
+[Epoch: 6, 24240/ 48487 points] total loss, lm accuracy per batch: 1.049, 0.922
+06/13/2023 03:33:20 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00900, 0.69438
+[Epoch: 6, 29088/ 48487 points] total loss, lm accuracy per batch: 1.023, 0.928
+06/13/2023 03:46:48 PM [INFO]: Last batch samples (pos, neg): 2, 7
+LM loss, blank_loss for last batch: 0.03317, 0.69565
+[Epoch: 6, 33936/ 48487 points] total loss, lm accuracy per batch: 1.031, 0.926
+06/13/2023 04:00:31 PM [INFO]: Last batch samples (pos, neg): 1, 9
+LM loss, blank_loss for last batch: 0.35730, 0.69582
+[Epoch: 6, 38784/ 48487 points] total loss, lm accuracy per batch: 1.011, 0.930
+06/13/2023 04:14:07 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.41217, 0.69527
+[Epoch: 6, 43632/ 48487 points] total loss, lm accuracy per batch: 1.029, 0.926
+06/13/2023 04:27:40 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.27499, 0.69451
+[Epoch: 6, 48480/ 48487 points] total loss, lm accuracy per batch: 0.999, 0.933
+06/13/2023 04:41:23 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8151.59 seconds.
+Losses at Epoch 6: 1.0299674
+Accuracy at Epoch 6: 0.9263217
+LM loss, blank_loss for last batch: 0.07422, 0.69439
+[Epoch: 7,  4848/ 48487 points] total loss, lm accuracy per batch: 0.978, 0.938
+06/13/2023 04:55:14 PM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 0.47634, 0.69571
+[Epoch: 7,  9696/ 48487 points] total loss, lm accuracy per batch: 0.948, 0.944
+06/13/2023 05:09:04 PM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.19989, 0.69506
+[Epoch: 7, 14544/ 48487 points] total loss, lm accuracy per batch: 0.958, 0.941
+06/13/2023 05:22:50 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00200, 0.69733
+[Epoch: 7, 19392/ 48487 points] total loss, lm accuracy per batch: 0.970, 0.940
+06/13/2023 05:36:05 PM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.12533, 0.69329
+[Epoch: 7, 24240/ 48487 points] total loss, lm accuracy per batch: 0.957, 0.942
+06/13/2023 05:49:25 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.05104, 0.69675
+[Epoch: 7, 29088/ 48487 points] total loss, lm accuracy per batch: 0.944, 0.945
+06/13/2023 06:02:54 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.31266, 0.69482
+[Epoch: 7, 33936/ 48487 points] total loss, lm accuracy per batch: 0.944, 0.945
+06/13/2023 06:16:36 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.44355, 0.69373
+[Epoch: 7, 38784/ 48487 points] total loss, lm accuracy per batch: 0.936, 0.947
+06/13/2023 06:30:11 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.05231, 0.69469
+[Epoch: 7, 43632/ 48487 points] total loss, lm accuracy per batch: 0.940, 0.945
+06/13/2023 06:43:42 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.17352, 0.69238
+[Epoch: 7, 48480/ 48487 points] total loss, lm accuracy per batch: 0.919, 0.950
+06/13/2023 06:57:22 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8154.00 seconds.
+Losses at Epoch 7: 0.9494600
+Accuracy at Epoch 7: 0.9438993
+LM loss, blank_loss for last batch: 0.40120, 0.69330
+[Epoch: 8,  4848/ 48487 points] total loss, lm accuracy per batch: 0.922, 0.950
+06/13/2023 07:11:14 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.14541, 0.69501
+[Epoch: 8,  9696/ 48487 points] total loss, lm accuracy per batch: 0.913, 0.952
+06/13/2023 07:25:14 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.25685, 0.69509
+[Epoch: 8, 14544/ 48487 points] total loss, lm accuracy per batch: 0.913, 0.951
+06/13/2023 07:38:57 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.47492, 0.70139
+[Epoch: 8, 19392/ 48487 points] total loss, lm accuracy per batch: 0.925, 0.948
+06/13/2023 07:52:12 PM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.69596, 0.69259
+[Epoch: 8, 24240/ 48487 points] total loss, lm accuracy per batch: 0.925, 0.950
+06/13/2023 08:05:32 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.12495, 0.69392
+[Epoch: 8, 29088/ 48487 points] total loss, lm accuracy per batch: 0.920, 0.951
+06/13/2023 08:19:03 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.01240, 0.69567
+[Epoch: 8, 33936/ 48487 points] total loss, lm accuracy per batch: 0.909, 0.953
+06/13/2023 08:32:51 PM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.35590, 0.69189
+[Epoch: 8, 38784/ 48487 points] total loss, lm accuracy per batch: 0.911, 0.952
+06/13/2023 08:46:41 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.14330, 0.69279
+[Epoch: 8, 43632/ 48487 points] total loss, lm accuracy per batch: 0.917, 0.950
+06/13/2023 09:00:17 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.12164, 0.69151
+[Epoch: 8, 48480/ 48487 points] total loss, lm accuracy per batch: 0.897, 0.955
+06/13/2023 09:13:58 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8191.36 seconds.
+Losses at Epoch 8: 0.9151921
+Accuracy at Epoch 8: 0.9512496
+LM loss, blank_loss for last batch: 0.02736, 0.69256
+[Epoch: 9,  4848/ 48487 points] total loss, lm accuracy per batch: 0.883, 0.958
+06/13/2023 09:27:48 PM [INFO]: Last batch samples (pos, neg): 1, 10
+LM loss, blank_loss for last batch: 0.10191, 0.69287
+[Epoch: 9,  9696/ 48487 points] total loss, lm accuracy per batch: 0.866, 0.962
+06/13/2023 09:41:48 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.11738, 0.69672
+[Epoch: 9, 14544/ 48487 points] total loss, lm accuracy per batch: 0.869, 0.962
+06/13/2023 09:55:36 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00108, 0.69226
+[Epoch: 9, 19392/ 48487 points] total loss, lm accuracy per batch: 0.880, 0.959
+06/13/2023 10:08:47 PM [INFO]: Last batch samples (pos, neg): 1, 3
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.83095, 0.69853
+[Epoch: 9, 24240/ 48487 points] total loss, lm accuracy per batch: 0.876, 0.959
+06/13/2023 10:22:04 PM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.07221, 0.69709
+[Epoch: 9, 29088/ 48487 points] total loss, lm accuracy per batch: 0.862, 0.964
+06/13/2023 10:35:58 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.03641, 0.69156
+[Epoch: 9, 33936/ 48487 points] total loss, lm accuracy per batch: 0.865, 0.962
+06/13/2023 10:49:47 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.09947, 0.69295
+[Epoch: 9, 38784/ 48487 points] total loss, lm accuracy per batch: 0.857, 0.965
+06/13/2023 11:03:24 PM [INFO]: Last batch samples (pos, neg): 1, 11
+LM loss, blank_loss for last batch: 0.06137, 0.69473
+[Epoch: 9, 43632/ 48487 points] total loss, lm accuracy per batch: 0.860, 0.963
+06/13/2023 11:17:01 PM [INFO]: Last batch samples (pos, neg): 1, 7
+LM loss, blank_loss for last batch: 0.10251, 0.69343
+[Epoch: 9, 48480/ 48487 points] total loss, lm accuracy per batch: 0.848, 0.967
+06/13/2023 11:30:40 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8196.76 seconds.
+Losses at Epoch 9: 0.8666508
+Accuracy at Epoch 9: 0.9620710
+LM loss, blank_loss for last batch: 0.15633, 0.69304
+[Epoch: 10,  4848/ 48487 points] total loss, lm accuracy per batch: 0.851, 0.966
+06/13/2023 11:44:34 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00265, 0.68587
+[Epoch: 10,  9696/ 48487 points] total loss, lm accuracy per batch: 0.840, 0.968
+06/13/2023 11:58:36 PM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.18021, 0.68754
+[Epoch: 10, 14544/ 48487 points] total loss, lm accuracy per batch: 0.847, 0.967
+06/14/2023 12:12:32 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.26182, 0.69239
+[Epoch: 10, 19392/ 48487 points] total loss, lm accuracy per batch: 0.855, 0.965
+06/14/2023 12:25:55 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.15339, 0.69336
+[Epoch: 10, 24240/ 48487 points] total loss, lm accuracy per batch: 0.855, 0.965
+06/14/2023 12:39:11 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00758, 0.69312
+[Epoch: 10, 29088/ 48487 points] total loss, lm accuracy per batch: 0.845, 0.967
+06/14/2023 12:53:08 AM [INFO]: Last batch samples (pos, neg): 2, 7
+LM loss, blank_loss for last batch: 0.16922, 0.69270
+[Epoch: 10, 33936/ 48487 points] total loss, lm accuracy per batch: 0.848, 0.967
+06/14/2023 01:07:04 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.13289, 0.69349
+[Epoch: 10, 38784/ 48487 points] total loss, lm accuracy per batch: 0.839, 0.968
+06/14/2023 01:20:39 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.05540, 0.69368
+[Epoch: 10, 43632/ 48487 points] total loss, lm accuracy per batch: 0.846, 0.967
+06/14/2023 01:34:07 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.42531, 0.69510
+[Epoch: 10, 48480/ 48487 points] total loss, lm accuracy per batch: 0.835, 0.969
+06/14/2023 01:47:47 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8222.45 seconds.
+Losses at Epoch 10: 0.8460062
+Accuracy at Epoch 10: 0.9669813
+LM loss, blank_loss for last batch: 0.00590, 0.69007
+[Epoch: 11,  4848/ 48487 points] total loss, lm accuracy per batch: 0.837, 0.969
+06/14/2023 02:01:37 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.26961, 0.69311
+[Epoch: 11,  9696/ 48487 points] total loss, lm accuracy per batch: 0.824, 0.972
+06/14/2023 02:15:31 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.01593, 0.69397
+[Epoch: 11, 14544/ 48487 points] total loss, lm accuracy per batch: 0.833, 0.969
+06/14/2023 02:29:11 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.36088, 0.69277
+[Epoch: 11, 19392/ 48487 points] total loss, lm accuracy per batch: 0.842, 0.968
+06/14/2023 02:42:22 AM [INFO]: Last batch samples (pos, neg): 1, 3
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.09486, 0.69373
+[Epoch: 11, 24240/ 48487 points] total loss, lm accuracy per batch: 0.842, 0.968
+06/14/2023 02:55:40 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.19218, 0.69334
+[Epoch: 11, 29088/ 48487 points] total loss, lm accuracy per batch: 0.836, 0.970
+06/14/2023 03:09:04 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.13947, 0.69254
+[Epoch: 11, 33936/ 48487 points] total loss, lm accuracy per batch: 0.833, 0.970
+06/14/2023 03:22:46 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.23070, 0.69342
+[Epoch: 11, 38784/ 48487 points] total loss, lm accuracy per batch: 0.831, 0.970
+06/14/2023 03:36:16 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00824, 0.72394
+[Epoch: 11, 43632/ 48487 points] total loss, lm accuracy per batch: 0.869, 0.969
+06/14/2023 03:49:44 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.07106, 0.69262
+[Epoch: 11, 48480/ 48487 points] total loss, lm accuracy per batch: 0.895, 0.971
+06/14/2023 04:03:27 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8135.75 seconds.
+Losses at Epoch 11: 0.8442409
+Accuracy at Epoch 11: 0.9696853
+LM loss, blank_loss for last batch: 0.43647, 0.69187
+[Epoch: 12,  4848/ 48487 points] total loss, lm accuracy per batch: 0.828, 0.971
+06/14/2023 04:17:17 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.01219, 0.69366
+[Epoch: 12,  9696/ 48487 points] total loss, lm accuracy per batch: 0.820, 0.972
+06/14/2023 04:31:13 AM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.02072, 0.69208
+[Epoch: 12, 14544/ 48487 points] total loss, lm accuracy per batch: 0.829, 0.971
+06/14/2023 04:44:57 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.09281, 0.68994
+[Epoch: 12, 19392/ 48487 points] total loss, lm accuracy per batch: 0.835, 0.970
+06/14/2023 04:58:10 AM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.12910, 0.69460
+[Epoch: 12, 24240/ 48487 points] total loss, lm accuracy per batch: 0.834, 0.970
+06/14/2023 05:11:30 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.17664, 0.69281
+[Epoch: 12, 29088/ 48487 points] total loss, lm accuracy per batch: 0.826, 0.972
+06/14/2023 05:24:57 AM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.09985, 0.69352
+[Epoch: 12, 33936/ 48487 points] total loss, lm accuracy per batch: 0.825, 0.972
+06/14/2023 05:38:42 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.08130, 0.69300
+[Epoch: 12, 38784/ 48487 points] total loss, lm accuracy per batch: 0.824, 0.972
+06/14/2023 05:52:15 AM [INFO]: Last batch samples (pos, neg): 1, 11
+LM loss, blank_loss for last batch: 0.20405, 0.68903
+[Epoch: 12, 43632/ 48487 points] total loss, lm accuracy per batch: 0.832, 0.970
+06/14/2023 06:05:47 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.52466, 0.69459
+[Epoch: 12, 48480/ 48487 points] total loss, lm accuracy per batch: 0.821, 0.973
+06/14/2023 06:19:28 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8156.44 seconds.
+Losses at Epoch 12: 0.8272701
+Accuracy at Epoch 12: 0.9713257
+LM loss, blank_loss for last batch: 0.07260, 0.69264
+[Epoch: 13,  4848/ 48487 points] total loss, lm accuracy per batch: 0.815, 0.974
+06/14/2023 06:33:19 AM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 0.03354, 0.69376
+[Epoch: 13,  9696/ 48487 points] total loss, lm accuracy per batch: 0.800, 0.977
+06/14/2023 06:47:14 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.02343, 0.69704
+[Epoch: 13, 14544/ 48487 points] total loss, lm accuracy per batch: 0.807, 0.976
+06/14/2023 07:00:55 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.22455, 0.69380
+[Epoch: 13, 19392/ 48487 points] total loss, lm accuracy per batch: 0.812, 0.975
+06/14/2023 07:14:08 AM [INFO]: Last batch samples (pos, neg): 1, 5
+LM loss, blank_loss for last batch: 0.01913, 0.69404
+[Epoch: 13, 24240/ 48487 points] total loss, lm accuracy per batch: 0.807, 0.976
+06/14/2023 07:27:22 AM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.00015, 0.69241
+[Epoch: 13, 29088/ 48487 points] total loss, lm accuracy per batch: 0.803, 0.977
+06/14/2023 07:40:55 AM [INFO]: Last batch samples (pos, neg): 2, 7
+LM loss, blank_loss for last batch: 0.00560, 0.69465
+[Epoch: 13, 33936/ 48487 points] total loss, lm accuracy per batch: 0.800, 0.978
+06/14/2023 07:54:50 AM [INFO]: Last batch samples (pos, neg): 1, 9
+LM loss, blank_loss for last batch: 0.23098, 0.69416
+[Epoch: 13, 38784/ 48487 points] total loss, lm accuracy per batch: 0.797, 0.978
+06/14/2023 08:08:26 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.16644, 0.69127
+[Epoch: 13, 43632/ 48487 points] total loss, lm accuracy per batch: 0.800, 0.977
+06/14/2023 08:22:02 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.23563, 0.69455
+[Epoch: 13, 48480/ 48487 points] total loss, lm accuracy per batch: 0.788, 0.980
+06/14/2023 08:35:42 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8168.92 seconds.
+Losses at Epoch 13: 0.8027535
+Accuracy at Epoch 13: 0.9768814
+LM loss, blank_loss for last batch: 0.01308, 0.69208
+[Epoch: 14,  4848/ 48487 points] total loss, lm accuracy per batch: 0.794, 0.979
+06/14/2023 08:50:12 AM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 0.15889, 0.69187
+[Epoch: 14,  9696/ 48487 points] total loss, lm accuracy per batch: 0.786, 0.980
+06/14/2023 09:04:45 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.16392, 0.69365
+[Epoch: 14, 14544/ 48487 points] total loss, lm accuracy per batch: 0.786, 0.981
+06/14/2023 09:18:41 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00124, 0.69190
+[Epoch: 14, 19392/ 48487 points] total loss, lm accuracy per batch: 0.806, 0.977
+06/14/2023 09:32:02 AM [INFO]: Last batch samples (pos, neg): 1, 3
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.03533, 0.69398
+[Epoch: 14, 24240/ 48487 points] total loss, lm accuracy per batch: 0.795, 0.979
+06/14/2023 09:45:21 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00006, 0.69831
+[Epoch: 14, 29088/ 48487 points] total loss, lm accuracy per batch: 0.792, 0.980
+06/14/2023 09:58:48 AM [INFO]: Last batch samples (pos, neg): 2, 7
+LM loss, blank_loss for last batch: 0.00351, 0.69113
+[Epoch: 14, 33936/ 48487 points] total loss, lm accuracy per batch: 0.791, 0.979
+06/14/2023 10:12:32 AM [INFO]: Last batch samples (pos, neg): 1, 9
+LM loss, blank_loss for last batch: 0.03789, 0.69410
+[Epoch: 14, 38784/ 48487 points] total loss, lm accuracy per batch: 0.789, 0.980
+06/14/2023 10:26:14 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.01318, 0.69590
+[Epoch: 14, 43632/ 48487 points] total loss, lm accuracy per batch: 0.793, 0.979
+06/14/2023 10:39:56 AM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.20326, 0.69141
+[Epoch: 14, 48480/ 48487 points] total loss, lm accuracy per batch: 0.781, 0.981
+06/14/2023 10:53:45 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8278.62 seconds.
+Losses at Epoch 14: 0.7912618
+Accuracy at Epoch 14: 0.9795157
+LM loss, blank_loss for last batch: 0.02750, 0.69418
+[Epoch: 15,  4848/ 48487 points] total loss, lm accuracy per batch: 0.789, 0.980
+06/14/2023 11:07:37 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.10288, 0.69326
+[Epoch: 15,  9696/ 48487 points] total loss, lm accuracy per batch: 0.780, 0.982
+06/14/2023 11:21:38 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.29247, 0.69291
+[Epoch: 15, 14544/ 48487 points] total loss, lm accuracy per batch: 0.782, 0.982
+06/14/2023 11:35:21 AM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.04637, 0.69415
+[Epoch: 15, 19392/ 48487 points] total loss, lm accuracy per batch: 0.789, 0.980
+06/14/2023 11:48:36 AM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.34210, 0.69487
+[Epoch: 15, 24240/ 48487 points] total loss, lm accuracy per batch: 0.790, 0.980
+06/14/2023 12:01:56 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00006, 0.69381
+[Epoch: 15, 29088/ 48487 points] total loss, lm accuracy per batch: 0.783, 0.981
+06/14/2023 12:15:26 PM [INFO]: Last batch samples (pos, neg): 2, 7
+LM loss, blank_loss for last batch: 0.09597, 0.69395
+[Epoch: 15, 33936/ 48487 points] total loss, lm accuracy per batch: 0.785, 0.981
+06/14/2023 12:29:12 PM [INFO]: Last batch samples (pos, neg): 1, 9
+LM loss, blank_loss for last batch: 0.34267, 0.69285
+[Epoch: 15, 38784/ 48487 points] total loss, lm accuracy per batch: 0.781, 0.982
+06/14/2023 12:42:58 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.09688, 0.69399
+[Epoch: 15, 43632/ 48487 points] total loss, lm accuracy per batch: 0.791, 0.979
+06/14/2023 12:56:30 PM [INFO]: Last batch samples (pos, neg): 1, 7
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.00860, 0.69688
+[Epoch: 15, 48480/ 48487 points] total loss, lm accuracy per batch: 0.778, 0.983
+06/14/2023 01:10:09 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8179.35 seconds.
+Losses at Epoch 15: 0.7845967
+Accuracy at Epoch 15: 0.9809730
+LM loss, blank_loss for last batch: 0.04697, 0.69335
+[Epoch: 16,  4848/ 48487 points] total loss, lm accuracy per batch: 0.781, 0.982
+06/14/2023 01:23:58 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.02672, 0.69385
+[Epoch: 16,  9696/ 48487 points] total loss, lm accuracy per batch: 0.769, 0.984
+06/14/2023 01:37:56 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.02935, 0.69044
+[Epoch: 16, 14544/ 48487 points] total loss, lm accuracy per batch: 0.772, 0.984
+06/14/2023 01:51:39 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.09654, 0.69395
+[Epoch: 16, 19392/ 48487 points] total loss, lm accuracy per batch: 0.776, 0.983
+06/14/2023 02:04:53 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.09611, 0.69624
+[Epoch: 16, 24240/ 48487 points] total loss, lm accuracy per batch: 0.777, 0.983
+06/14/2023 02:18:07 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.01799, 0.69567
+[Epoch: 16, 29088/ 48487 points] total loss, lm accuracy per batch: 0.773, 0.984
+06/14/2023 02:31:41 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.01377, 0.69408
+[Epoch: 16, 33936/ 48487 points] total loss, lm accuracy per batch: 0.771, 0.985
+06/14/2023 02:45:25 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.08089, 0.69489
+[Epoch: 16, 38784/ 48487 points] total loss, lm accuracy per batch: 0.768, 0.985
+06/14/2023 02:59:01 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.27152, 0.69211
+[Epoch: 16, 43632/ 48487 points] total loss, lm accuracy per batch: 0.772, 0.985
+06/14/2023 03:12:31 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00184, 0.69329
+[Epoch: 16, 48480/ 48487 points] total loss, lm accuracy per batch: 0.761, 0.986
+06/14/2023 03:26:12 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8158.35 seconds.
+Losses at Epoch 16: 0.7720826
+Accuracy at Epoch 16: 0.9840696
+LM loss, blank_loss for last batch: 0.13036, 0.68960
+[Epoch: 17,  4848/ 48487 points] total loss, lm accuracy per batch: 0.766, 0.985
+06/14/2023 03:40:00 PM [INFO]: Last batch samples (pos, neg): 1, 10
+LM loss, blank_loss for last batch: 0.04591, 0.69490
+[Epoch: 17,  9696/ 48487 points] total loss, lm accuracy per batch: 0.758, 0.987
+06/14/2023 03:53:59 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.06130, 0.69383
+[Epoch: 17, 14544/ 48487 points] total loss, lm accuracy per batch: 0.763, 0.986
+06/14/2023 04:07:44 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.00012, 0.69261
+[Epoch: 17, 19392/ 48487 points] total loss, lm accuracy per batch: 0.765, 0.986
+06/14/2023 04:20:59 PM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.00012, 0.68843
+[Epoch: 17, 24240/ 48487 points] total loss, lm accuracy per batch: 0.766, 0.985
+06/14/2023 04:34:17 PM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.15245, 0.69401
+[Epoch: 17, 29088/ 48487 points] total loss, lm accuracy per batch: 0.763, 0.986
+06/14/2023 04:47:49 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.01861, 0.69398
+[Epoch: 17, 33936/ 48487 points] total loss, lm accuracy per batch: 0.764, 0.986
+06/14/2023 05:01:30 PM [INFO]: Last batch samples (pos, neg): 1, 3
+LM loss, blank_loss for last batch: 0.05121, 0.69387
+[Epoch: 17, 38784/ 48487 points] total loss, lm accuracy per batch: 0.763, 0.986
+06/14/2023 05:15:03 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00735, 0.69293
+[Epoch: 17, 43632/ 48487 points] total loss, lm accuracy per batch: 0.767, 0.985
+06/14/2023 05:28:36 PM [INFO]: Last batch samples (pos, neg): 1, 7
+LM loss, blank_loss for last batch: 0.06719, 0.69362
+[Epoch: 17, 48480/ 48487 points] total loss, lm accuracy per batch: 0.756, 0.987
+06/14/2023 05:42:20 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8163.25 seconds.
+Losses at Epoch 17: 0.7630165
+Accuracy at Epoch 17: 0.9860954
+LM loss, blank_loss for last batch: 0.01221, 0.69375
+[Epoch: 18,  4848/ 48487 points] total loss, lm accuracy per batch: 0.762, 0.986
+06/14/2023 05:56:11 PM [INFO]: Last batch samples (pos, neg): 1, 13
+LM loss, blank_loss for last batch: 0.28144, 0.69590
+[Epoch: 18,  9696/ 48487 points] total loss, lm accuracy per batch: 0.757, 0.987
+06/14/2023 06:10:08 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.01551, 0.69577
+[Epoch: 18, 14544/ 48487 points] total loss, lm accuracy per batch: 0.756, 0.988
+06/14/2023 06:23:52 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.07089, 0.69337
+[Epoch: 18, 19392/ 48487 points] total loss, lm accuracy per batch: 0.761, 0.987
+06/14/2023 06:37:01 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.00027, 0.69062
+[Epoch: 18, 24240/ 48487 points] total loss, lm accuracy per batch: 0.766, 0.986
+06/14/2023 06:50:17 PM [INFO]: Last batch samples (pos, neg): 1, 2
+LM loss, blank_loss for last batch: 0.00128, 0.69337
+[Epoch: 18, 29088/ 48487 points] total loss, lm accuracy per batch: 0.756, 0.988
+06/14/2023 07:03:46 PM [INFO]: Last batch samples (pos, neg): 2, 16
+LM loss, blank_loss for last batch: 0.12530, 0.69285
+[Epoch: 18, 33936/ 48487 points] total loss, lm accuracy per batch: 0.758, 0.987
+06/14/2023 07:17:28 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.20084, 0.69208
+[Epoch: 18, 38784/ 48487 points] total loss, lm accuracy per batch: 0.756, 0.987
+06/14/2023 07:31:02 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Empty dataset, skipping...
+LM loss, blank_loss for last batch: 0.03184, 0.42182
+[Epoch: 18, 43632/ 48487 points] total loss, lm accuracy per batch: 1.272, 0.985
+06/14/2023 07:44:38 PM [INFO]: Last batch samples (pos, neg): 1, 16
+LM loss, blank_loss for last batch: 0.12893, 0.69386
+[Epoch: 18, 48480/ 48487 points] total loss, lm accuracy per batch: 0.772, 0.988
+06/14/2023 07:58:24 PM [INFO]: Last batch samples (pos, neg): 1, 16
+Epoch finished, took 8159.11 seconds.
+Losses at Epoch 18: 0.8116731
+Accuracy at Epoch 18: 0.9867901
+06/14/2023 07:58:30 PM [INFO]: Finished Training!
+(semeval) sohrab@sohrab-MS-7D22:~/Desktop/Transfering/New MTB/BERT-Relation-Extraction-master$ 
